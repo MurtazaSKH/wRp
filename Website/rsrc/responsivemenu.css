@@ -23,6 +23,13 @@ body a:hover {
     padding: 1em 0;
   }
 }
+
+@media only screen and (min-width: 1300px) and (max-width: 1930px) {
+  
+  
+
+}
+
 #check1 .check1-inner {
   max-width: 1024px;
   margin: 0 auto;
@@ -97,7 +104,7 @@ body a:hover {
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   #check1 .navbar .check2 ul .video {
-    margin-right: 200px;
+    /*margin-right: 200px;*/
   }
 }
 #check1 .navbar .check2 li {

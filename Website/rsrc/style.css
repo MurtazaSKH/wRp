@@ -145,6 +145,14 @@ body.push-menu #wrapper {
     #wrapper.boxed-long {
         width: 1200px
     }
+    .hvr-bounce-to-top{
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+  .hvr-bounce-to-top:hover, .hvr-bounce-to-top:focus, .hvr-bounce-to-top:active{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 @media (min-width: 1440px) {
     #wrapper.boxed-long {
@@ -165,14 +173,7 @@ ul {
     padding: 0;
     margin: 0
 }
-@media (min-width: 1280px) {
-    .container {
-        width: 62%;
-    }
-    container.container1 {
-        width: 70%;
-    }
-}
+
 @media (max-width: 767px) {
     .container {
         padding-left: 20px;
