@@ -18,6 +18,18 @@ a:focus,
 input:focus {
     outline: 0
 }
+
+#blogb1 {
+  background: #ADC94D;
+  color:black;
+}
+
+#blogb2 {
+  background: #AE1E25;
+  color:white;
+}
+
+#4A5459
 .bg-custom {
     background-color: #3c51b2;
     color: #fff
@@ -172,7 +184,7 @@ ul {
     }
 }
 a {
-    color: #3c51b2;
+    color: #80878A;
     transition: color .4s ease;
     -webkit-transition: color .4s ease
 }
