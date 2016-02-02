@@ -155,11 +155,18 @@ ul {
 }
 @media (min-width: 1280px) {
     .container {
-        width: 60%;
+        width: 62%;
+    }
+    container.container1 {
+        width: 70%;
     }
 }
 @media (max-width: 767px) {
     .container {
+        padding-left: 20px;
+        padding-right: 20px
+    }
+    container.container1 {
         padding-left: 20px;
         padding-right: 20px
     }
@@ -3612,8 +3619,20 @@ body.open-menu.push-menu.right-menu #wrapper {
 .entry .entry-media {
     border-radius: 5px;
     margin-bottom: 23px;
-    overflow: hidden
+    overflow: hidden;
+    height: 400px;
 }
+
+@media (max-width: 400px) {
+
+    .entry .entry-media {
+    border-radius: 5px;
+    margin-bottom: 23px;
+    overflow: hidden;
+    height: 100%;
+}
+}
+
 .entry .entry-media img {
     display: block;
     width: 100%;

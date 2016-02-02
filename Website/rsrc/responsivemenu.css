@@ -102,11 +102,13 @@ body a:hover {
 }
 #check1 .navbar .check2 li {
   display: inline;
-  padding: 0 .35em;
+  /*padding: 0 .35em;*/
 }
 @media only screen and (min-width: 1024px) {
   #check1 .navbar .check2 li {
-    padding: 0 .75em;
+    /*padding: 0 .75em;
+    padding-left: 22px;
+    padding-right: 22px;*/
   }
 }
 
