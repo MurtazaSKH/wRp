@@ -29,7 +29,6 @@ input:focus {
   color:white;
 }
 
-#4A5459
 .bg-custom {
     background-color: #3c51b2;
     color: #fff
@@ -146,12 +145,12 @@ body.push-menu #wrapper {
         width: 1200px
     }
     .hvr-bounce-to-top{
-    padding-left: 40px !important;
-    padding-right: 40px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
   }
   .hvr-bounce-to-top:hover, .hvr-bounce-to-top:focus, .hvr-bounce-to-top:active{
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 @media (min-width: 1440px) {
@@ -573,7 +572,7 @@ h6 {
     padding-left: 35px;
     padding-right: 35px
 }
-.title:after {
+/*.title:after {
     content: '';
     display: block;
     width: 100px;
@@ -582,7 +581,7 @@ h6 {
     left: 0;
     bottom: -22px;
     background-color: rgba(172, 172, 172, .5)
-}
+}*/
 .title.text-center:after {
     left: 50%;
     margin-left: -50px
@@ -658,7 +657,7 @@ p {
     margin-bottom: 20px
 }
 .highlight {
-    background-color: #3c51b2;
+    background-color: #DF0F0F;
     color: #fff;
     padding: 0 3px
 }
@@ -666,7 +665,7 @@ p {
     border-radius: 4px
 }
 .highlight.dark {
-    background-color: #3b4045
+    background-color: #DF0F0F
 }
 .text-linethrough {
     text-decoration: line-through
@@ -789,7 +788,8 @@ p {
     font-size: 2.5rem;
     padding: 5px 10px 7px;
     border-radius: 2px;
-    line-height: 2.6rem
+    line-height: 2.6rem;
+    border-radius: 16px;
 }
 .btn.btn-sm.btn-rounded {
     border-radius: 5px
