@@ -551,11 +551,11 @@ h6 {
 }
 .title {
     font-family: "Open Sans", Verdana, sans-serif;
-    color: #3c51b2;
+    color: #DFDFDF;
     font-size: 2.5rem;
     line-height: 2rem;
     text-transform: uppercase;
-    background-image: url(../images/title-pattern.png);
+    /*background-image: url(../images/title-pattern.png);*/
     background-repeat: repeat;
     margin-bottom: 31px
 }
@@ -863,8 +863,8 @@ p {
 }
 .btn.btn-custom {
     color: #fff;
-    background-color: #3c51b2;
-    border-color: #3c51b2
+    background-color: #DF0F0F;
+    /*border-color: #3c51b2*/
 }
 .btn.btn-custom:focus,
 .btn.btn-custom:hover {
@@ -3783,11 +3783,15 @@ body.open-menu.push-menu.right-menu #wrapper {
 }
 .carousel-control.left {
     border-radius: 0 4px 4px 0;
-    background-image: none
+    background-image: none;
+    background-color: black;
+    opacity: 0.6;
 }
 .carousel-control.right {
     border-radius: 4px 0 0 4px;
-    background-image: none
+    background-image: none;
+    background-color: black;
+    opacity: 0.6;
 }
 .single .entry-author figure,
 .single .entry-author figure img,
