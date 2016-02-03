@@ -89,7 +89,7 @@ body a:hover {
 }
 #check1 .navbar .check2 {
   text-align: center;
-  margin-top: 1em;
+  margin-top: 0.5em;
 }
 @media only screen and (max-width: 767px) {
   #check1 .navbar .check2 {
