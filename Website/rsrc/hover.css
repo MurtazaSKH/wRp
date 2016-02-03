@@ -2156,24 +2156,28 @@
   background: #ED3D3D;
   padding-left: 20px;
   padding-right: 20px;
+  border-radius: 8px;
 }
 
 #about:before {
   background: #ABC947;
   padding-left: 20px;
   padding-right: 20px;
+  border-radius: 8px;
 }
 
 #contact:before {
   background: #F6E212;
   padding-left: 20px;
   padding-right: 20px;
+  border-radius: 8px;
 }
 
 #services:before {
   background: #2B6DAB;
   padding-left: 20px;
   padding-right: 20px;
+  border-radius: 8px;
 }
 
 .hvr-shutter-out-vertical:hover, .hvr-shutter-out-vertical:focus, .hvr-shutter-out-vertical:active {

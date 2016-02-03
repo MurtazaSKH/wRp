@@ -15,7 +15,7 @@ body a:hover {
 #check1 {
   background: #fff;
   margin: 0 auto;
-  padding: 0em 0 1em;
+  padding: 0em 0 0.5em;
   border-image: url("./images/border_image.jpg") 0 0 3 0 stretch repeat;
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -34,7 +34,7 @@ body a:hover {
   max-width: 1024px;
   margin: 0 auto;
   position: relative;
-  height: 4em;
+  height: 3em;
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   #check1 .check1-inner {
@@ -49,11 +49,11 @@ body a:hover {
   }
 }
 #check1 .navbar .logo {
-  margin: 1em 0;
+  /*margin: 1em 0;*/
   position: absolute;
   right: 42%;
   text-align: center;
-  /*top: 10px;*/
+  /*top: 8px;*/
   z-index: 100;
 }
 @media only screen and (max-width: 767px) {
@@ -89,7 +89,7 @@ body a:hover {
 }
 #check1 .navbar .check2 {
   text-align: center;
-  margin-top: 2em;
+  margin-top: 1em;
 }
 @media only screen and (max-width: 767px) {
   #check1 .navbar .check2 {
