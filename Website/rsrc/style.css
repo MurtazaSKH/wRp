@@ -2032,7 +2032,7 @@ p {
     /*box-shadow: 0 1px 4px rgba(139, 151, 183, .3);
     -webkit-box-shadow: 0 1px 4px rgba(139, 151, 183, .3);*/
     /*border-bottom: 4px solid;*/
-    border-image: url("./images/border_image.jpg") 0 0 3 0 stretch repeat;
+    /*border-image: url("./images/border_image.jpg") 0 0 3 0 stretch repeat;*/
 }
 .header-left {
     float: left
@@ -3108,7 +3108,11 @@ body.open-menu.push-menu.right-menu #wrapper {
     padding: 53.5px 0 51.5px;
     border: none;
     margin: 0;
-    background-color: #f7f8fc
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /*background-color: #f7f8fc*/
 }
 .page-header h1,
 .page-header p {
@@ -4354,7 +4358,7 @@ body.open-menu.push-menu.right-menu #wrapper {
 }
 .portfolio-item .portfolio-meta {
     position: relative;
-    background-color: #3b4045;
+    background-color: rgba(223, 15, 15, 0.81);
     border: 1px solid #3b4045;
     color: #fff;
     padding: 15px 44px 11px 24px;

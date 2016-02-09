@@ -37,7 +37,7 @@
             <div class="breadcrumb-container mb100">
                <div class="container">
                   <ol class="breadcrumb">
-                     <li><a href="#index.html">Home</a></li>
+                     <li><a href="#index.php">Home</a></li>
                      <li class="active">Blog</li>
                   </ol>
                </div>
@@ -98,7 +98,7 @@
                <div class="container">
                   <!-- <div class="footer-right">
                      <ul class="footer-menu">
-                        <li class="active"><a href="#index.html">Home</a></li>
+                        <li class="active"><a href="#index.php">Home</a></li>
                         <li><a href="#blog.html#">Page</a></li>
                         <li><a href="#blog.html#">Portfolio</a></li>
                         <li><a href="#blog.html#">Blog</a></li>

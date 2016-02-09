@@ -27,68 +27,9 @@
    </head>
    <body >
       
-      <!-- <div id="mobile-menu-overlay"></div>
-      <div id="wrapper"> -->
-            <!-- <div class="header-top">
-               <div class="container">                 
-                  <section id="navbar">
-           <header>
-            <nav>
-             <ul>
-              <li><i class="service-icon fa fa-home" style="font-size:20px;"></i></li>
-              <li>Games</li>
-              <li>About Us</li>
-              <li>Contact Us</li>
-              <li>Services</li>
-              <li>Blog</li>
-             </ul>
-            </nav>
-            <div class="logo"></div>
-           </header>
-          </section>
-               </div>
-            </div>
-            <div class="sticky-wrapper" id="shorter_menu" style="display:none;">
-</div> -->
-<header>
-<div id="page">
-
-    <div id="check1">
-      <div class="check1-inner">
-        <div class="navbar">
-          <div class="logo">
-            <img src="./rsrc/images/temp.png" /></div>
-          <div id="mobile-check2">
-            <ul class="mobile-check2">
-              <li class="first leaf level-1 check2-link-24791"><a title="" href="#"><i class="service-icon fa fa-home" style="font-size:20px;"></i> Home</a></li>
-              <li class="leaf level-1 check2-link-24796"><a title=""  href="view_games.html">Games</a></li>
-              <li class="leaf level-1 check2-link-24841"><a title="" href="#">About Us</a></li>
-              <li class="leaf level-1 check2-link-24836"><a title="" href="contactus.html">Contact Us</a></li>
-              <li class="leaf level-1 check2-link-24846"><a title="" href="#">Services</a></li>
-              <!-- <li class="leaf level-1 check2-link-24801"><a title="" href="#">Blog</a></li> -->
-              <li class="last leaf level-1 check2-link-24806"><a title="" href="blog_home.html">Blog</a></li>
-            </ul>
-          </div>
-          <div class="check2">
-            <ul class="check2">
-              <li class="first leaf"><a title="" class="hvr-bounce-to-top" id="services" href="#"><i class="service-icon fa fa-home" style="font-size:20px;"></i> Home</a></li>
-              <li class="leaf"><a title="" class="hvr-bounce-to-top" id="games" href="view_games.html">Games</a></li>
-              <li class="leaf video"><a title="" class="hvr-bounce-to-top" id="about" href="#">About Us</a></li>
-              <li class="leaf"><a title="" class="hvr-bounce-to-top" id="contact" href="contactus.html">Contact Us</a></li>
-              <li class="leaf"><a title="" class="hvr-bounce-to-top" id="services" href="#">Services</a></li>
-              <li class="last leaf"><a title="" class="hvr-bounce-to-top" id="about" href="blog_home.html">Blog</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>
-    $("#mobile-check2").click(function () {
-    $(".mobile-check2").slideToggle("slow");
-    });
-  </script>
+      
+          <header>
+              <?php include ('header.php'); ?>
          </header>
          <div class="main">
             <div id="layerslider" style="width: 100%; height: 700px; visibility: visible;" class="ls-container ls-thelegend">
@@ -192,8 +133,8 @@
                      </div>
                   </div>
                   <div class="tagline-action" style="opacity:0.9;">
-                          <a href="#" style="float:left; width:49%; background:#ADC94D; color:black; height:48px;" class="btn btn-custom btn-sm min-width">Our Games</a>
-                          <a href="#" style="float:right; width:49%; background:#AE1E25; height:48px;" class="btn btn-custom btn-sm min-width">Our Services</a>
+                          <a href="view_games.php" style="float:left; width:49%; background:#ADC94D; color:black; height:48px;" class="btn btn-custom btn-sm min-width">Our Games</a>
+                          <a href="services.php" style="float:right; width:49%; background:#AE1E25; height:48px;" class="btn btn-custom btn-sm min-width">Our Services</a>
                         </div>
                </div>
             </div>
@@ -236,38 +177,12 @@
                </div>
             </div>
          </div>
+
          <footer class="footer">
             
-            <div class="footer-bottom">
-               <div class="container">
-                
-                  <section >
-           <header>
-            <div id="check1" style="border-image:none;">
-      <div class="check1-inner">
-        <div class="navbar">
-          <div class="logo" style="top:-68%;">
-            <img src="./rsrc/images/temp.png" /></div>
-          <div class="check2">
-            <ul class="check2">
-              <li class="first leaf"><a style="color:#4A5459; margin-left:-82px; padding-left:20px; padding-right:20px;" title="" class="hvr-underline-reveal" href="#">Press Kit</a></li>
-              <li class="leaf"><a style="color:#4A5459; padding-left:20px; padding-right:20px;" title="" class="hvr-underline-reveal" id="services" href="#">Contact Us</a></li>
-              <li class="leaf video"><a style="color:#4A5459; padding-left:20px; padding-right:20px;" title="" class="hvr-underline-reveal" id="about" href="#">Blog</a></li>
-              <!-- <li class="leaf"><a style="color:#4A5459; margin-left:203px; padding-left:20px; padding-right:20px;" title="" class="hvr-underline-reveal" href="#">Press Kit</a></li>
-              <li class="leaf"><a style="color:#4A5459; padding-left:20px; padding-right:20px;" title="" class="hvr-underline-reveal" id="services" href="#">Contact Us</a></li> -->
-              <li class="last leaf" style="margin-left:20px;">we.R.play | Copyright 2016</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-            <!-- <div class="logo2"></div> -->
-           </header>
-          </section>
-               </div>
-            </div>
+            <!-- footer here -->
+            <?php include ('footer.php'); ?>
+
          </footer>
       </div>
       <a id="scroll-top" href="#themes/legendstatic/#top" title="Scroll top" class="fixed"><i class="fa fa-angle-up"></i></a><script src="./rsrc/plugins.min.js"></script><script src="./rsrc/jquery.tweet.min.js"></script><script src="./rsrc/greensock.js"></script><script src="./rsrc/layerslider.transitions.js"></script><script src="./rsrc/layerslider.kreaturamedia.jquery.js"></script><script src="./rsrc/main.js"></script><script>$(function(){"use strict";$("#layerslider").layerSlider({responsiveUnder:1200,layersContainer:1200,skinsPath:"assets/css/skins/",navButtons:!0,navStartStop:!1,showCircleTimer:!0,thumbnailNavigation:"disabled",skin:"thelegend"})});</script>

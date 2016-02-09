@@ -19,6 +19,14 @@
       <link rel="stylesheet" href="./rsrc/plugins.min.css">
       <link rel="stylesheet" href="./rsrc/layerslider.css">
       <link rel="stylesheet" href="./rsrc/style.css">
+      <link href="./rsrc/hover.css" rel="stylesheet" media="all">
+      <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all"> -->
+      <script type="text/javascript" charset="utf-8" async="" src="https://platform.twitter.com/js/button.b059c0eb61ea902a882e5c5b3c66a17a.js"></script>
+      <link href="./rsrc/responsivemenu.css" rel="stylesheet" type="text/css">
+      <!-- <link rel="icon" type="image/png" href="#themes/legendstatic/assets/./rsrc/images/icons/favicon.png">
+      <link rel="apple-touch-icon" sizes="57x57" href="#themes/legendstatic/assets/./rsrc/images/icons/faviconx57.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="#themes/legendstatic/assets/./rsrc/images/icons/faviconx72.png"> -->
+      <link rel="stylesheet" href="./rsrc/skin.css" type="text/css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
       <!-- <link rel="icon" type="image/png" href="http://themerly.com/themes/legendstatic/assets/./rsrc/images/icons/favicon.png">
       <link rel="apple-touch-icon" sizes="57x57" href="http://themerly.com/themes/legendstatic/assets/./rsrc/images/icons/faviconx57.png">
@@ -34,8 +42,10 @@
    </head>
    <body >
       
-      <div id="wrapper">
-         <header class="header"></header>
+      <div >
+         <header class="header">
+            <?php include ('header.php'); ?>
+         </header>
          <div class="main">
             <div class="page-header">
                <div class="container">
@@ -46,7 +56,7 @@
             <div class="breadcrumb-container">
                <div class="container">
                   <ol class="breadcrumb">
-                     <li><a href="index.html">Home</a></li>
+                     <li><a href="index.php">Home</a></li>
                      <li class="active">Contact Us</li>
                   </ol>
                </div>
@@ -294,16 +304,7 @@
             <div class="mb90"></div>
          </div>
          <footer class="footer">
-            <div class="footer-bottom">
-               <div class="container">
-                  <div class="footer-right">
-                     
-                  </div>
-                  <div class="footer-left">
-                     <!-- <p class="copyright">Copyright 2014 The Legend<span class="separator">l</span>Template By <a href="http://themerly.com/" target="_blank">Themerly</a></p> -->
-                  </div>
-               </div>
-            </div>
+            <?php include ('header.php'); ?>
          </footer>
       </div>
       <a id="scroll-top" href="http://themerly.com/themes/legendstatic/contact2.html#top" title="Scroll top" class="fixed"><i class="fa fa-angle-up"></i></a><script src="./rsrc/js"></script><script src="./rsrc/plugins.min.js"></script><script src="./rsrc/jquery.validate.min.js"></script><script src="./rsrc/contact.js"></script><script src="./rsrc/main.js"></script>
