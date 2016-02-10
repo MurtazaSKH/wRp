@@ -80,7 +80,7 @@
 .ls-thelegend .ls-nav-prev,
 .ls-thelegend .ls-nav-next {
 	display:block !important;
-	width: 42px;
+	width: 60px;
 	height: 56px;
 	z-index: 999;
 	top: 50%;
@@ -88,11 +88,11 @@
 	position: absolute;
 	text-align: center;
 	font-family: 'FontAwesome';
-	font-size:24px;
+	font-size:105px;
 	line-height:56px !important;
 	opacity:0;
 	color:#fff;
-	background-color: #DF0F0F;
+	/*background-color: #DF0F0F;*/
 	transition: all 0.45s !important;
 	-webkit-transition: all 0.45s !important;
 }
@@ -103,7 +103,7 @@
 }
 
 .ls-thelegend .ls-nav-prev:before {
-	content: "\f104";
+	content: "\f0d9";
 }
 
 .ls-thelegend .ls-nav-next {
@@ -112,7 +112,7 @@
 }
 
 .ls-thelegend .ls-nav-next:before {
-	content: "\f105";
+	content: "\f0da";
 }
 
 .ls-thelegend:hover .ls-nav-prev,

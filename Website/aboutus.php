@@ -37,14 +37,14 @@
                   <p>Wanna know more about us, 've come to the right place</p> -->
                </div>
             </div>
-            <div class="breadcrumb-container">
+            <!-- <div class="breadcrumb-container">
                <div class="container">
                   <ol class="breadcrumb">
                      <li><a href="index.php">Home</a></li>
                      <li class="active">About us</li>
                   </ol>
                </div>
-            </div>
+            </div> -->
             <div class="container" style="padding:20px;">
                <h2 class="title">Our Culture</h2>
                <div class="row">

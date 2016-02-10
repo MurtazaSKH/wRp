@@ -53,14 +53,14 @@
                   <p>Get in touch</p>
                </div>
             </div>
-            <div class="breadcrumb-container">
+            <!-- <div class="breadcrumb-container">
                <div class="container">
                   <ol class="breadcrumb">
                      <li><a href="index.php">Home</a></li>
                      <li class="active">Contact Us</li>
                   </ol>
                </div>
-            </div>
+            </div> -->
             <div id="map" style="position: relative; overflow: hidden; transform: translateZ(0px); background-color: rgb(229, 227, 223);">
                <div class="gm-style" style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0;">
                   <div style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0; cursor: url(&quot;http://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;) 8 8, default;">
@@ -304,7 +304,7 @@
             <div class="mb90"></div>
          </div>
          <footer class="footer">
-            <?php include ('header.php'); ?>
+            <?php include ('footer.php'); ?>
          </footer>
       </div>
       <a id="scroll-top" href="http://themerly.com/themes/legendstatic/contact2.html#top" title="Scroll top" class="fixed"><i class="fa fa-angle-up"></i></a><script src="./rsrc/js"></script><script src="./rsrc/plugins.min.js"></script><script src="./rsrc/jquery.validate.min.js"></script><script src="./rsrc/contact.js"></script><script src="./rsrc/main.js"></script>

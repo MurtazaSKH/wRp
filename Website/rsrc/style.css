@@ -1,4 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,600italic,700italic,800italic|Lato:400,100,300,700,900,100italic,300italic,400italic,700italic);
+@font-face {
+    font-family: "lightfont1";
+    src: url(./css/SkarpaLt.ttf) format("truetype");
+}
+p.customfont { 
+    font-family: "My Custom Font", Verdana, Tahoma;
+}
+
 .owl-carousel,
 .owl-carousel .owl-item {
     -webkit-tap-highlight-color: transparent;
@@ -89,7 +97,7 @@ input:focus {
 }
 body {
     color: #3b4045;
-    font: 400 1.667rem/2 "Open Sans", Verdana, sans-serif;
+    font: 400 1.667rem "Open Sans", Verdana, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
@@ -145,8 +153,8 @@ body.push-menu #wrapper {
         width: 1200px
     }
     .hvr-bounce-to-top{
-    padding-left: 30px !important;
-    padding-right: 30px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
   }
   .hvr-bounce-to-top:hover, .hvr-bounce-to-top:focus, .hvr-bounce-to-top:active{
     padding-left: 30px;
@@ -328,6 +336,13 @@ nav li:nth-child(4) {
 padding-left: 80px;
 }
 
+.selectedlink{
+    background-image: url("./images/arrow.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: -6px;
+    padding-top: 9px;
+}
 
 
 .owl-carousel.owl-loaded {
@@ -550,14 +565,15 @@ h6 {
     font-weight: 600
 }
 .title {
-    font-family: "Open Sans", Verdana, sans-serif;
+    font-family: "lightfont1", Verdana, sans-serif;
     color: #DFDFDF;
     font-size: 2.5rem;
     line-height: 2rem;
     text-transform: uppercase;
     /*background-image: url(../rsrc/images/title-pattern.png);*/
     background-repeat: repeat;
-    margin-bottom: 31px
+    margin-bottom: 31px;
+    margin-top: 5px;
 }
 .title>span {
     /*background-color: #fff;*/
@@ -785,8 +801,8 @@ p {
     font-weight: 300
 }
 .btn.btn-sm {
-    font-size: 2.5rem;
-    padding: 5px 10px 7px;
+    font-size: 1.5rem;
+    padding: 9px 10px 7px;
     border-radius: 2px;
     line-height: 2.6rem;
     border-radius: 16px;
@@ -853,7 +869,7 @@ p {
     -webkit-box-shadow: none
 }
 .btn.min-width {
-    min-width: 170px
+    min-width: 135px
 }
 .btn.min-width-sm {
     min-width: 230px
@@ -1471,7 +1487,7 @@ p {
 }
 .service-box,
 .service-box .service-icon {
-    background-color: #fff;
+    /*background-color: #fff;*/
     transition: all .5s;
     text-align: center
 }
@@ -1502,9 +1518,10 @@ p {
 }
 .service-box .service-title {
     color: #3c51b2;
-    font-size: 2.083rem;
+    /*font-size: 2.083rem;*/
     font-weight: 400;
-    margin-bottom: 24px
+    margin-bottom: 24px;
+    text-align: left;
 }
 .service-box p {
     margin-bottom: 21px
@@ -1513,24 +1530,29 @@ p {
     font-size: 1.667rem;
     line-height: 2.1rem;
     min-width: 127px;
-    padding-top: 6.5px;
+    padding-top: 11.5px;
     padding-bottom: 5.5px
+
 }
 .service-box .btn.btn-sm>i {
     margin-left: 7px;
     margin-right: 0
 }
 .service-box .btn.btn-custom.btn-border {
-    color: #3c51b2;
+    /*color: #3c51b2;*/
+    color:white;
     border-color: #e6ebf2;
-    background-color: transparent
+    width:100%;
+    border-radius: 16px;
+    background-color: #2e6cb1;
+    height:48px;
 }
 .service-box .btn.btn-custom.btn-border:focus,
 .service-box .btn.btn-custom.btn-border:hover,
 .service-box:hover .service-icon {
     color: #fff;
     background-color: #DF0F0F;
-    border-color: #DF0F0F;
+    /*border-color: #DF0F0F;*/
 }
 .service-box.hover-bg {
     color: #3b4045
@@ -3777,7 +3799,7 @@ body.open-menu.push-menu.right-menu #wrapper {
     color: #fff;
     opacity: 1;
     text-shadow: none;
-    background-color: rgba(59, 64, 69, .5);
+    background-color: rgba(59, 64, 69, .14);
     transition: background .5s;
     -webkit-transition: background .5s
 }
@@ -3788,14 +3810,14 @@ body.open-menu.push-menu.right-menu #wrapper {
 .carousel-control.left {
     border-radius: 0 4px 4px 0;
     background-image: none;
-    background-color: black;
-    opacity: 0.6;
+    /*background-color: black;*/
+    /*opacity: 0.6;*/
 }
 .carousel-control.right {
     border-radius: 4px 0 0 4px;
     background-image: none;
-    background-color: black;
-    opacity: 0.6;
+    /*background-color: black;
+    opacity: 0.6;*/
 }
 .single .entry-author figure,
 .single .entry-author figure img,

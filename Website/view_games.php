@@ -46,14 +46,14 @@
                   <p>Blah Blah Games</p>
                </div> -->
             </div>
-            <div class="breadcrumb-container">
+            <!-- <div class="breadcrumb-container">
                <div class="container">
                   <ol class="breadcrumb">
                      <li><a href="index.php">Home</a></li>
                      <li class="active">Games</li>
                   </ol>
                </div>
-            </div>
+            </div> -->
             <?php 
                      
                   include ('connection.php'); 
