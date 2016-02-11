@@ -195,7 +195,7 @@
                </div>
             </div>
 
-            <div class="bg-gray border pt100 pb100">
+            <!-- <div class="bg-gray border pt100 pb100">
                <div class="container">
                   <h2 class="title">Our Clients</h2>
                   <div class="mb60"></div>
@@ -219,7 +219,7 @@
                      <div class="owl-dots disabled"></div>
                   </div>
                </div>
-            </div>
+            </div> -->
          </div>
          
               <?php include ('footer.php'); ?>         

@@ -8,7 +8,7 @@
               <div class="navbar">
                 <div class="logo" id="logobottom" style="top:-68%;">
                   <img src="./rsrc/images/temp.png" /></div>
-                <div class="check2">
+                <div class="check2" style="margin-top: 14px;">
                   <ul class="check2">
                     <li class="first leaf"><a style="color:#4A5459; margin-left:-82px; padding-left:20px; padding-right:20px;" title="" class="hvr-underline-reveal" href="#">Press Kit</a></li>
                     <li class="leaf"><a style="color:#4A5459; padding-left:20px; padding-right:20px;" title="" class="hvr-underline-reveal" id="services" href="#">Contact Us</a></li>

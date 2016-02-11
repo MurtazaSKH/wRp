@@ -101,7 +101,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
-    background-color: #dddfec
+    /*background-color: #dddfec*/
 }
 body.push-menu #wrapper {
     transition: transform .45s;
@@ -342,6 +342,7 @@ padding-left: 80px;
     background-position: center;
     background-position-y: -6px;
     padding-top: 9px;
+    color:#ACCB65;
 }
 
 
@@ -574,6 +575,7 @@ h6 {
     background-repeat: repeat;
     margin-bottom: 31px;
     margin-top: 5px;
+    letter-spacing: 3px;
 }
 .title>span {
     /*background-color: #fff;*/

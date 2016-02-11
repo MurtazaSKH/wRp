@@ -61,7 +61,18 @@
                   </ol>
                </div>
             </div> -->
-            <div id="map" style="position: relative; overflow: hidden; transform: translateZ(0px); background-color: rgb(229, 227, 223);">
+
+            <!-- map here -->
+            <div class="container">
+               <div class="row">
+                   <div  style="position: relative;">
+                                <div class="map-overlay" onclick="style.pointerEvents='none'" style="pointer-events: none;"></div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.601418000041!2d73.05560271553527!3d33.66748818071239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df956f4f307af5%3A0xd6e806e5b39a5bd6!2swe.R.play!5e0!3m2!1sen!2s!4v1455178212838" allowfullscreen="" style="width:100%; height:350px; border:none;"></iframe>
+                   </div>
+                </div>
+             </div>
+
+            <!-- <div id="map" style="position: relative; overflow: hidden; transform: translateZ(0px); background-color: rgb(229, 227, 223);">
                <div class="gm-style" style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0;">
                   <div style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0; cursor: url(&quot;http://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;) 8 8, default;">
                      <div style="position: absolute; left: 0px; top: 0px; z-index: 1; width: 100%; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0);">
@@ -265,7 +276,7 @@
                      </a>
                   </div>
                </div>
-            </div>
+            </div> -->
             <div class="mb100 mb80-sm mb60-xs"></div>
             <div class="container">
                <div class="row">

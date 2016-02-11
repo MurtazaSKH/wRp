@@ -28,6 +28,7 @@
 }
 .pe-thumbs li a img{
 	width:140px;
+	height: 140px;
 	opacity: 0.2;
 }
 .pe-thumbs li a div.pe-description{
