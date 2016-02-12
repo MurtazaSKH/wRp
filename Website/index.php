@@ -105,7 +105,7 @@
                      <div id="portfolio-item-container" class="max-col-2" data-layoutmode="fitRows" style="position: relative; height: 660px;">
                         
                         <div class="portfolio-item " style="visibility: visible; animation-name: fadeInUp; position: absolute; left: 0px; top: 0px;">
-                           <h3 class="title">Games</h3>
+                           <h3 class="title" style="color:#DFDFDF;">Games</h3>
                            <figure class="entry-media carousel slide" id="blog-post-id" data-ride="carousel">
                            <div class="carousel-inner" role="listbox">
                               <div class="item"><a href="single.html" title="Lorem ipsum dolor sit amet, consectetuer adipiscing elit"><img src="./rsrc/images/hex.png" alt="entry image"></a></div>
@@ -117,7 +117,7 @@
                         </div>
 
                         <div class="portfolio-item" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp; position: absolute; left: 399px; top: 0px;">
-                          <h3 class="title">Creative Services</h3>
+                          <h3 class="title" style="color:#DFDFDF;">Creative Services</h3>
                            <figure class="entry-media carousel slide" id="blog-post-id2" data-ride="carousel">
                            <div class="carousel-inner" role="listbox">
                               <div class="item"><a href="single.html" title="Lorem ipsum dolor sit amet, consectetuer adipiscing elit"><img src="./rsrc/images/sheeda.png" alt="entry image"></a></div>

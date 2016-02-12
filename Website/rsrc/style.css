@@ -473,10 +473,10 @@ padding-left: 80px;
 }
 .owl-next,
 .owl-prev {
-    font-size: 2.5rem;
+    /*font-size: 2.5rem;
     line-height: 46px;
     height: 50px;
-    width: 50px;
+    width: 50px;*/
     color: #c3c9d5;
     border: 1px solid #ebeff5;
     text-align: center;
@@ -567,7 +567,7 @@ h6 {
 }
 .title {
     font-family: "lightfont1", Verdana, sans-serif;
-    color: #DFDFDF;
+    /*color: #DFDFDF;*/
     font-size: 2.5rem;
     line-height: 2rem;
     text-transform: uppercase;

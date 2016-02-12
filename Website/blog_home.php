@@ -11,22 +11,27 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <![endif]-->
       <meta name="viewport" content="width=device-width,initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
       <link rel="stylesheet" href="./rsrc/plugins.min.css">
       <link rel="stylesheet" href="./rsrc/layerslider.css">
       <link rel="stylesheet" href="./rsrc/style.css">
+      <link href="./rsrc/hover.css" rel="stylesheet" media="all">
+      <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all"> -->
+      <script type="text/javascript" charset="utf-8" async="" src="https://platform.twitter.com/js/button.b059c0eb61ea902a882e5c5b3c66a17a.js"></script>
       <link href="./rsrc/responsivemenu.css" rel="stylesheet" type="text/css">
-      <!-- <link rel="icon" type="image/png" href="#assets/images/icons/favicon.png">
-      <link rel="apple-touch-icon" sizes="57x57" href="#assets/images/icons/faviconx57.png">
-      <link rel="apple-touch-icon" sizes="72x72" href="#assets/images/icons/faviconx72.png"> -->
+      <!-- <link rel="icon" type="image/png" href="#themes/legendstatic/assets/./rsrc/images/icons/favicon.png">
+      <link rel="apple-touch-icon" sizes="57x57" href="#themes/legendstatic/assets/./rsrc/images/icons/faviconx57.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="#themes/legendstatic/assets/./rsrc/images/icons/faviconx72.png"> -->
+      <link rel="stylesheet" href="./rsrc/skin.css" type="text/css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
    </head>
-   <body class="push-menu">
-      <div id="mobile-menu-overlay"></div>
-      <div id="wrapper">
-         <header class="header">
-            
-            
-         </header>
+   <body >
+      
+      <header>
+              <?php include ('header.php'); ?>
+         </header>   
+         
          <div class="main">
             <div class="page-header">
                <div class="container">
@@ -34,14 +39,14 @@
                   <p>Join us and write something</p>
                </div>
             </div>
-            <div class="breadcrumb-container mb100">
+            <!-- <div class="breadcrumb-container mb100">
                <div class="container">
                   <ol class="breadcrumb">
                      <li><a href="#index.php">Home</a></li>
                      <li class="active">Blog</li>
                   </ol>
                </div>
-            </div>
+            </div> -->
             <div class="container">
                <!-- <article class="entry">
                   <figure class="entry-media"><a href="#single.html" title="Lorem ipsum dolor sit amet, consectetuer adipiscing elit "><img src="./rsrc/post1.jpg" alt="entry image"></a></figure>
@@ -94,24 +99,9 @@
          </div>
          <footer class="footer">
             
-            <div class="footer-bottom">
-               <div class="container">
-                  <!-- <div class="footer-right">
-                     <ul class="footer-menu">
-                        <li class="active"><a href="#index.php">Home</a></li>
-                        <li><a href="#blog.html#">Page</a></li>
-                        <li><a href="#blog.html#">Portfolio</a></li>
-                        <li><a href="#blog.html#">Blog</a></li>
-                        <li><a href="#blog.html#">Contact</a></li>
-                     </ul>
-                  </div> -->
-                  <div class="footer-left">
-                     <!-- <p class="copyright">Copyright 2014 The Legend<span class="separator">l</span>Template By <a href="http://themerly.com/" target="_blank">Themerly</a></p> -->
-                  </div>
-               </div>
-            </div>
+            <?php include ('footer.php'); ?>
          </footer>
-      </div>
+      
       <a id="scroll-top" href="#blog.html#top" title="Scroll top" class="fixed"><i class="fa fa-angle-up"></i></a><script src="./rsrc/plugins.min.js"></script><script src="./rsrc/jquery.tweet.min.js"></script><script src="./rsrc/main.js"></script>
    </body>
 </html>
