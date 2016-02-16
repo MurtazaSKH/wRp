@@ -40,194 +40,85 @@
             
          </header>
          <div class="main">
-            <div class="page-header" style="padding-top:172px; background-image: url(./rsrc/images/games/all_games.jpg);">
-               <!-- <div class="container">
-                  <h1>Games</h1>
-                  <p>Blah Blah Games</p>
-               </div> -->
-            </div>
-            <!-- <div class="breadcrumb-container">
+            <div class="tagline light bg-gradient2" style="background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50) ),url('./rsrc/images/explottensBack.png'); max-width:100%; height:700px; background-position: center center;  background-repeat: no-repeat;    background-size: cover; background-attachment:fixed;">
                <div class="container">
-                  <ol class="breadcrumb">
-                     <li><a href="index.php">Home</a></li>
-                     <li class="active">Games</li>
-                  </ol>
+                  <h3 style="margin: 25% 10%; font-size: 40px; color:#fff; font-family: 'lightfont1', Verdana, sans-serif; font-weight: 400;">We love making games, you'll love playing them.</h3>
                </div>
+            </div>
+
+            <!-- <div style="background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50) ),url('./rsrc/images/csoon.jpg') ; height:139px; background-position: center center;      background-size: contain; background-attachment:fixed;">
+
             </div> -->
-            <?php 
-                     
-                  include ('connection.php'); 
-
-                  if(isset($_GET["gameid"]) ){
-                     $game = trim($_GET["gameid"]);
-
-                     $sql = "SELECT * FROM games_info where game_id=$game";
-                     $result = mysqli_query($conn, $sql);
-                     // echo "selected";
-
-                     $sql = "SELECT * FROM games_info where game_id!=$game";
-                     $result2 = mysqli_query($conn, $sql);
-
-                  }
-                  else{
-                     $sql = "SELECT * FROM games_info";
-                     $result = mysqli_query($conn, $sql);
-                  }
-
-                  // $sql = "SELECT id, firstname, lastname FROM MyGuests";
-                  // $result = mysqli_query($conn, $sql);
-                  $count=0;
-                  if (mysqli_num_rows($result) > 0) {
-                      
-                      while($row = mysqli_fetch_assoc($result))
-                      {
-                          
-                     if($count==0)
-                     {
-                        echo '<div class="portfolio-post-container dark fullwidth">
-                        <div class="row">
-                           <div class="col-md-6">
-                              <figure class="portfolio-post-media"><img src="./rsrc/images/games/'.$row["img_src"].'" alt="portfolio item"></figure>
+            
+            
+            <div class="pt100 pb70 pb85-xs" style="background: url('./rsrc/images/gameBg.png'); background-position: center center;  background-repeat: no-repeat;    background-size: cover; background-attachment:fixed;">
+               <div class="container">
+                  <!-- <h2 class="title no-bg text-center" style="text-align:left;"><span>Games</span></h2> -->
+                  <!-- <p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.</p> -->
+                 <!--  <div class="mb65"></div> -->
+                  <div class="row">
+                     <div id="portfolio-item-container" class="max-col-2" data-layoutmode="fitRows" style="position: relative; height: 433.767px;">
+                        
+                        <div class="portfolio-item " style="visibility: visible; animation-name: fadeInUp; position: absolute; left: 0px; top: 0px;">
+                           <h3 class="title" style="color:#DFDFDF;">Games</h3>
+                           <figure class="entry-media carousel slide" id="blog-post-id" data-ride="carousel">
+                           <div class="carousel-inner" role="listbox">
+                              <div class="item active"><a href="http://explottens.com/" title="Lorem ipsum dolor sit amet, consectetuer adipiscing elit"><img src="./rsrc/images/games/explottens.png" alt="entry image"></a></div>
                            </div>
                            
-                           <div class="col-md-6">
-                              <div class="portfolio-post-content">
-                                 <h2 class="portfolio-title">'.$row["title"].'</h2>
-                                 <p>'.$row["description"].'</p>
-                                 <ul class="portfolio-post-meta-list">
-                                    <!-- <li><span>Client:</span> Company Name</li> -->
-                                    <li><span>Categories:</span> Endless Runner</li>
-                                    <!-- <li><span>Budget:</span> $800 - $1200</li> -->
-                                    <li><span>Playstore:</span> <a href="https://play.google.com/store/apps/details?id=com.werplay.runsheedarun&hl=en" title="themeforest.com">Playstore apps - Run Sheeda Run</a></li>
-                                    <li><span>Appstore:</span> <a href="#">Coming Soon!</a></li>
-                                    <li><span>Website:</span> <a href="runsheedarun.werplay.com/">runsheedarun.werplay.com</a></li>
-                                    <li><span>Price:</span> Free</li>
-
-
-                                 </ul>
-                                 <footer>
-                                    <div class="portfolio-tags"><a href="#">Games</a>, <a href="#">Endless Runner</a></div>
-                                    <!-- <a class="portfolio-like" href="#" title="12 Like"><i class="fa fa-heart"></i>158</a> -->
-                                 </footer>
-                              </div>
-                           </div>
+                        </figure>
+                        <p style="color:#A6ABAC;"><span>Explottens: Explottens is a heart pounding, fast paced shoot-em-up which is exploding (pun intended) with humour, cuteness and deadly cat fights! </span> asdasd</p>
                         </div>
+
+                        <div class="portfolio-item" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp; position: absolute; left: 450px; top: 0px;">
+                          <h3 class="title" style="color:#DFDFDF;"> &nbsp</h3>
+                           <figure class="entry-media carousel slide" id="blog-post-id2" data-ride="carousel">
+                           <div class="carousel-inner" role="listbox">
+                              <div class="item active"><a href="http://runsheedarun.werplay.com/" title="Lorem ipsum dolor sit amet, consectetuer adipiscing elit"><img src="./rsrc/images/games/rsr.jpg" alt="entry image"></a></div>
+                           </div>
+                           
+                        </figure>
+                           <!-- <div class="item-meta">
+                              <h3 class="portfolio-title"><a href="#themes/legendstatic/single-portfolio.html">BREAD AND SPIKES</a></h3>
+                              <p>Aenean commodo ligula eget dolor dis parturient montes .</p>
+                           </div> -->
+                           <p style="color:#A6ABAC;">Run Sheeda Run: All the action takes place in the cultural heartbeat of Pakistan - Lahore! Sheeda is your average Pakistani boy in a not so average endless runner!</p>
+                        </div>
+
+                        <div class="portfolio-item" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp; position: absolute; left: 450px; top: 0px;">
+                           <figure class="entry-media carousel slide" id="blog-post-id2" data-ride="carousel">
+                           
+                           <div class="carousel-inner" role="listbox">
+                              <div class="item active"><a href="##" title="Lorem ipsum dolor sit amet, consectetuer adipiscing elit"><img src="./rsrc/images/games/fly.jpg" alt="entry image"></a></div>
+                           </div>
+                           
+                        </figure>
+                           <!-- <div class="item-meta">
+                              <h3 class="portfolio-title"><a href="#themes/legendstatic/single-portfolio.html">BREAD AND SPIKES</a></h3>
+                              <p>Aenean commodo ligula eget dolor dis parturient montes .</p>
+                           </div> -->
+                           <p style="color:#A6ABAC;">Fly: </p>
+                        </div>
+
+                        <div class="portfolio-item" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp; position: absolute; left: 450px; top: 0px;">
+                           <figure class="entry-media carousel slide" id="blog-post-id2" data-ride="carousel">
+                           <div class="carousel-inner" role="listbox">
+                              <div class="item active"><a href="http://losttwins.werplay.com/" title="Lorem ipsum dolor sit amet, consectetuer adipiscing elit"><img src="./rsrc/images/games/lt.png" alt="entry image"></a></div>
+                           </div>
+                           
+                        </figure>
+                           <!-- <div class="item-meta">
+                              <h3 class="portfolio-title"><a href="#themes/legendstatic/single-portfolio.html">BREAD AND SPIKES</a></h3>
+                              <p>Aenean commodo ligula eget dolor dis parturient montes .</p>
+                           </div> -->
+                           <p style="color:#A6ABAC;"><h2 >Lost Twins</h2> Poor little Ben and Abi! They are left adrift in a magical room, hopeless and lost. Never fear, for you can reunite them! Guide the young siblings by matching up rooms and directing them to the magical red door!</p>
+                        </div>
+                        
+                        
                      </div>
-                     <div id="portfolio-item-container" class="max-col-4" data-layoutmode="fitRows" style="position: relative; height: 916.668px;">
-                     ';
-                     $count++;
-                     }
-                   else {
-                      
-                      echo '<div class="portfolio-item overlay-item fonts artworks" style="position: absolute; left: 0px; top: 0px;">
-                              <figure><img src="./rsrc/images/games/'.$row["img_src"].'" alt="portfolio item"></figure>
-                              <div class="portfolio-meta">
-                                 <h3 class="portfolio-title"><a href="view_games.php?gameid='.$row["game_id"].'">'.$row["title"].'</a></h3>
-                                 <p class="portfolio-desc">'.$row["brief"].'</p>
-                              </div>
-                           </div>';
-
-
-                  }
-                  if(!is_null(result2))
-                  {
-                     while($row = mysqli_fetch_assoc($result2))
-                      {
-                           echo '<div class="portfolio-item overlay-item fonts artworks" style="position: absolute; left: 0px; top: 0px;">
-                              <figure><img src="./rsrc/images/games/'.$row["img_src"].'" alt="portfolio item"></figure>
-                              <div class="portfolio-meta">
-                                 <h3 class="portfolio-title"><a href="view_games.php?gameid='.$row["game_id"].'">'.$row["title"].'</a></h3>
-                                 <p class="portfolio-desc">'.$row["brief"].'</p>
-                              </div>
-                           </div>';
-                      }
-                  }
-               }
-            }
+                  </div>
                   
-            ?>
-            
-            <!-- <div id="portfolio-item-container" class="max-col-4" data-layoutmode="fitRows" style="position: relative; height: 916.668px;"> -->
-               <!-- <div class="portfolio-item overlay-item fonts artworks" style="position: absolute; left: 0px; top: 0px;">
-                  <figure><img src="./rsrc/images/games/hex.png" alt="portfolio item"></figure>
-                  <div class="portfolio-meta">
-                     <h3 class="portfolio-title"><a href="#">HEX:99</a></h3>
-                     <p class="portfolio-desc">Mercilessly Difficult, Daringly Addictive! HEX:99 can be explained with a simple equation : (simple controls + awesome music) x insane difficulty + frenzied action = SUPER ADDICTIVE.</p>
-                  </div>
-               </div>
-               <div class="portfolio-item overlay-item awesome wordpress" style="position: absolute; left: 395px; top: 0px;">
-                  <figure><img src="./rsrc/images/games/lt2.png" alt="portfolio item"></figure>
-                  <div class="portfolio-meta">
-                     <h3 class="portfolio-title"><a href="#">Lost Twins</a></h3>
-                     <p class="portfolio-desc">Poor little Ben and Abi! They are left adrift in a magical room, hopeless and lost. Never fear, for you can reunite them! Guide the young siblings by matching up rooms and directing them to the magical red door!</p>
-                  </div>
-               </div>
-               <div class="portfolio-item overlay-item web-design wordpress" style="position: absolute; left: 791px; top: 0px;">
-                  <figure><img src="./rsrc/item3.jpg" alt="portfolio item"></figure>
-                  <div class="portfolio-meta">
-                     <h3 class="portfolio-title"><a href="#">Lorem ipsum dolor</a></h3>
-                     <p class="portfolio-desc">The European languages are members of the same family. Their separate existence is a myth. For scienc vocabulary. The languages only differ in their gramm But I must explain .</p>
-                     <footer>
-                        <div class="portfolio-tags"><a href="#">Logo</a>, <a href="#">Design</a></div>
-                        <a class="portfolio-like" href="#" title="12 Like"><i class="fa fa-heart"></i></a>
-                     </footer>
-                  </div>
-               </div> -->
-               <!-- <div class="portfolio-item overlay-item graphic-design marketing" style="position: absolute; left: 0px; top: 305px;">
-                  <figure><img src="./rsrc/item4.jpg" alt="portfolio item"></figure>
-                  <div class="portfolio-meta">
-                     <h3 class="portfolio-title"><a href="#">Lorem ipsum dolor</a></h3>
-                     <p class="portfolio-desc">The European languages are members of the same family. Their separate existence is a myth. For scienc vocabulary. The languages only differ in their gramm But I must explain .</p>
-                     <footer>
-                        <div class="portfolio-tags"><a href="#">Logo</a>, <a href="#">Design</a></div>
-                        <a class="portfolio-like" href="#" title="12 Like"><i class="fa fa-heart"></i></a>
-                     </footer>
-                  </div>
-               </div>
-               <div class="portfolio-item overlay-item graphic-design web-design" style="position: absolute; left: 395px; top: 305px;">
-                  <figure><img src="./rsrc/item5.jpg" alt="portfolio item"></figure>
-                  <div class="portfolio-meta">
-                     <h3 class="portfolio-title"><a href="#">Lorem ipsum dolor</a></h3>
-                     <p class="portfolio-desc">The European languages are members of the same family. Their separate existence is a myth. For scienc vocabulary. The languages only differ in their gramm But I must explain .</p>
-                     <footer>
-                        <div class="portfolio-tags"><a href="#">Logo</a>, <a href="#">Design</a></div>
-                        <a class="portfolio-like" href="#" title="12 Like"><i class="fa fa-heart"></i></a>
-                     </footer>
-                  </div>
-               </div>
-               <div class="portfolio-item overlay-item fonts awesome" style="position: absolute; left: 791px; top: 305px;">
-                  <figure><img src="./rsrc/item6.jpg" alt="portfolio item"></figure>
-                  <div class="portfolio-meta">
-                     <h3 class="portfolio-title"><a href="#">Lorem ipsum dolor</a></h3>
-                     <p class="portfolio-desc">The European languages are members of the same family. Their separate existence is a myth. For scienc vocabulary. The languages only differ in their gramm But I must explain .</p>
-                     <footer>
-                        <div class="portfolio-tags"><a href="#">Logo</a>, <a href="#">Design</a></div>
-                        <a class="portfolio-like" href="#" title="12 Like"><i class="fa fa-heart"></i></a>
-                     </footer>
-                  </div>
-               </div>
-               <div class="portfolio-item overlay-item marketing wordpress" style="position: absolute; left: 0px; top: 611px;">
-                  <figure><img src="./rsrc/item7.jpg" alt="portfolio item"></figure>
-                  <div class="portfolio-meta">
-                     <h3 class="portfolio-title"><a href="#">Lorem ipsum dolor</a></h3>
-                     <p class="portfolio-desc">The European languages are members of the same family. Their separate existence is a myth. For scienc vocabulary. The languages only differ in their gramm But I must explain .</p>
-                     <footer>
-                        <div class="portfolio-tags"><a href="#">Logo</a>, <a href="#">Design</a></div>
-                        <a class="portfolio-like" href="#" title="12 Like"><i class="fa fa-heart"></i></a>
-                     </footer>
-                  </div>
-               </div>
-               <div class="portfolio-item overlay-item graphic-design artworks web-design" style="position: absolute; left: 395px; top: 611px;">
-                  <figure><img src="./rsrc/item8.jpg" alt="portfolio item"></figure>
-                  <div class="portfolio-meta">
-                     <h3 class="portfolio-title"><a href="#">Lorem ipsum dolor</a></h3>
-                     <p class="portfolio-desc">The European languages are members of the same family. Their separate existence is a myth. For scienc vocabulary. The languages only differ in their gramm But I must explain .</p>
-                     <footer>
-                        <div class="portfolio-tags"><a href="#">Logo</a>, <a href="#">Design</a></div>
-                        <a class="portfolio-like" href="#" title="12 Like"><i class="fa fa-heart"></i></a>
-                     </footer>
-                  </div>
-               </div> -->
+            </div>
             </div>
             
          </div>

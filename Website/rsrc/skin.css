@@ -191,6 +191,9 @@
 .ls-thelegend .ls-nav-stop,
 .ls-thelegend .ls-nav-sides {
 	top: -40px;
+	background-color: rgba(255, 255, 255, 0.25);
+	border-radius: 9px;
+    padding: 3px 0px;
 }
 
 @media (max-width:991px) {

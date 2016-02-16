@@ -4106,7 +4106,7 @@ hr {
 /* CTA */
 .cta {
   position: relative;
-  padding: 70px 0;
+  padding: 15px 0;
   background: #80878A;
 }
 .cta .title {
@@ -4411,7 +4411,7 @@ hr {
   padding-right: 0;
 }
 .features-tabs .tab-content .tab-pane {
-  height: 424px;
+  height: 435px;
 }
 .features-tabs .tab-content .caption {
   position: absolute;

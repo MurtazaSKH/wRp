@@ -1690,8 +1690,14 @@ left: 46%;
 @media (min-width: 1200px) {
     .container {
         /*width: 1170px*/
-        width:900;
+        width:900px;
     }
+
+.container1 {
+    width:98%;
+    margin-left: 2%;
+    padding-right: 2%;
+}
     /*.logo {
     	left: 48%;
     }*/
@@ -12113,7 +12119,7 @@ screen and (max-height: 300px) {
     padding-top: 95px
 }
 .pt100 {
-    padding-top: 100px
+    padding-top: 65px
 }
 .pt110 {
     padding-top: 110px

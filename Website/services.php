@@ -68,19 +68,19 @@
                   <p>Blah Blah Games</p>
                </div> -->
             </div>
-  <div class="container">
+  <div class="container1">
 
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12" style="margin-top: 20px; margin-bottom:20px;">
         <div class="features-tabs">
           <ul class="nav nav-tabs custom-list vertical-tab col-lg-4 col-md-4 col-sm-12" role="tablist">
-            <li class="active"><a href="##cars" role="tab" data-toggle="tab" aria-expanded="true"><h4>Quality Assurance</h4><!-- <span>We know how to do our work</span> --></a>
+            <li class="active"><a href="##cars" role="tab" data-toggle="tab" aria-expanded="true"><h4>Quality Assurance</h4><span>We know how to do our work</span></a>
             </li>
-            <li class=""><a href="##quality" role="tab" data-toggle="tab" aria-expanded="false"><h4>Art and Animation</h4><!-- <span>We hire only the best specialists</span> --></a>
+            <li class=""><a href="##quality" role="tab" data-toggle="tab" aria-expanded="false"><h4>Art and Animation</h4><span>We hire only the best specialists</span></a>
             </li>
-            <li class=""><a href="##politics" role="tab" data-toggle="tab" aria-expanded="false"><h4>Content Designing</h4><!-- <span>Our Fleet is up to date</span> --></a>
+            <li class=""><a href="##politics" role="tab" data-toggle="tab" aria-expanded="false"><h4>Content Designing</h4><span>Our Fleet is up to date</span></a>
             </li>
-            <li class=""><a href="##insurance" role="tab" data-toggle="tab" aria-expanded="false"><h4>Dev</h4><!-- <span>We’re in good company</span> --></a>
+            <li class=""><a href="##insurance" role="tab" data-toggle="tab" aria-expanded="false"><h4>Dev</h4><span>We’re in good company</span></a>
             </li>
           </ul>
           <div class="tab-content col-lg-8 col-md-8 col-sm-12">
@@ -118,10 +118,10 @@
 
 <!-- Start CTA -->
 <section class="cta">
-  <div class="container">
+  <div class="container" >
     <div class="row">
       <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12" style="width:100%;">
-        <h3 class="title"> <span class="color">We take pride and passion in our team and believe we have the finest talents available with incredible array of skills. We provide our very own services with a hard working team of artists, animators, developers and testers who are more than willing to contribute to your projects. Their hard work and determination is the reason why many of the world's most popular gaming companies come to. </span></h3>
+        <h3 class="title" style="letter-spacing:0px;"> <span class="color">We take pride and passion in our team and believe we have the finest talents available with incredible array of skills. We provide our very own services with a hard working team of artists, animators, developers and testers who are more than willing to contribute to your projects. Their hard work and determination is the reason why many of the world's most popular gaming companies come to. </span></h3>
       </div>
       <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
         
