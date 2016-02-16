@@ -21,6 +21,10 @@
       <link rel="apple-touch-icon" sizes="72x72" href="#themes/legendstatic/assets/./rsrc/images/icons/faviconx72.png"> -->
       <link rel="stylesheet" href="./rsrc/skin.css" type="text/css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+      <link rel="stylesheet" type="text/css" media="all" href="./rsrc/css/sliderstyles.css">
+      <script type="text/javascript" src="./rsrc/js/jquery-1.10.2.min.js"></script>
+      <script type="text/javascript" src="./rsrc/js/carousels.js"></script>
       
    </head>
    <body >
@@ -31,22 +35,15 @@
               <?php include ('header.php'); ?>
          </header>
          <div class="main">
-            <div class="page-header" style="background-image: url(./rsrc/images/about_bg2.jpg); padding-top:172px;">
+            <div class="tagline light bg-gradient2" style="background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50) ),url('./rsrc/images/background1.jpg'); max-width:100%; height:700px; background-position: center center;  background-repeat: no-repeat;    background-size: cover; background-attachment:fixed;">
                <div class="container">
-                  <!-- <h1>About Us</h1>
-                  <p>Wanna know more about us, 've come to the right place</p> -->
+                  <h3 style="margin: 25% 10%; font-size: 40px; color:#fff; font-family: 'lightfont1', Verdana, sans-serif; font-weight: 400;">Our core values; work hard and respect everyone.</h3>
+                  <!-- <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus language would be desirable: one could .</p> -->
+                  <!-- <div class="tagline-action"><a href="#" class="btn btn-white btn-sm btn-border min-width">Purchase</a> <a href="#" class="btn btn-white btn-sm min-width">Screenshots</a></div> -->
                </div>
             </div>
-            <!-- <div class="breadcrumb-container">
-               <div class="container">
-                  <ol class="breadcrumb">
-                     <li><a href="index.php">Home</a></li>
-                     <li class="active">About us</li>
-                  </ol>
-               </div>
-            </div> -->
             <div class="container" style="padding:20px;">
-               <h2 class="title">Our Culture</h2>
+               <!-- <h2 class="title">Our Culture</h2>
                <div class="row">
                   <div class="col-md-6">
                      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enii Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium Donec pede justo, fringilla vel, aliquet nec, vul putate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae justo. Nullam dictum felis Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
@@ -62,82 +59,35 @@
                      </div>
                   </div>
                </div>
-            </div>
-            <!-- <div class="mb70 mt30-sm mt30-xs"></div>
-            <div class="bg-gray border pt100 pb75">
-               <div class="container">
-                  <h2 class="title"><span>WHY CHOOSE US</span></h2>
-                  <div class="row">
-                     <div class="col-md-6">
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commo do ligula eget dolor. Aenean massa .</p>
-                        <div class="mb5"></div>
-                        <ul class="fa-ul semibold">
-                           <li><i class="fa-li fa fa-arrow-circle-right"></i>Lorem ipsum dolor sit amet, consectetuer adipiscing elit Aenean.</li>
-                           <li><i class="fa-li fa fa-arrow-circle-right"></i>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</li>
-                           <li class="text-custom"><i class="fa-li fa fa-arrow-circle-right"></i>But I must explain to you how all this mistaken.</li>
-                           <li><i class="fa-li fa fa-arrow-circle-right"></i>Far far away, behind the word mountains, far from the.</li>
-                           <li><i class="fa-li fa fa-arrow-circle-right"></i>Lorem ipsum dolor sit amet, consectetuer adipiscing elit Aenean.</li>
-                        </ul>
-                     </div>
-                     <div class="col-md-6">
-                        <div class="progress-container">
-                           <h4 class="progress-title mt0 mt40-xs mt50-sm">Wordpress <span>90%</span></h4>
-                           <div class="progress progress-sm gray transparent rounded">
-                              <div class="progress-bar gradient1" role="progressbar" data-width="90" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"><span class="sr-only">90% Complete</span></div>
-                           </div>
-                        </div>
-                        <div class="progress-container">
-                           <h4 class="progress-title">HTML <span>60%</span></h4>
-                           <div class="progress progress-sm gray transparent rounded">
-                              <div class="progress-bar gradient3" role="progressbar" data-width="60" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><span class="sr-only">60% Complete</span></div>
-                           </div>
-                        </div>
-                        <div class="progress-container">
-                           <h4 class="progress-title">Photoshop <span>90%</span></h4>
-                           <div class="progress progress-sm gray transparent rounded">
-                              <div class="progress-bar gradient4" role="progressbar" data-width="90" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"><span class="sr-only">90% Complete</span></div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
             </div> -->
+            <div class="container">
+                  <h2 class="title" >Clients</h2>
+                  <div id="clients">
+                    <div class="clients-wrap">
+                      <ul id="clients-list" class="clearfix" style="width: 980px;">
+                         <li style="margin-left: -114.337px;"><img src="./rsrc/images/clients/disney.png" alt="Disney Mobile"></li>
+                         <li><img src="./rsrc/images/clients/pg.png" alt="Pocket Gems"></li>
+                         <!-- <li style="margin-left: 0px;"><img src="./rsrc/images/clients/pg.png" alt="Pocket Gems"></li> -->
+                         <!-- <li style="margin-left: 0px;"><img src="./rsrc/images/clients/disney.png" alt="Disney Mobile"></li> -->
+                         <li style="margin-left: 0px;"><img src="./rsrc/images/clients/marvel.png" alt="Marvel"></li>
+                         <li style="margin-left: 0px;"><img src="./rsrc/images/clients/chillingo.jpg" alt="Chillingo"></li>
+                         <li style="margin-left: 0px;"><img src="./rsrc/images/clients/playdom.jpeg" alt="Playdom"></li>
+                         <li style="margin-left: 0px;"><img src="./rsrc/images/clients/zynga.png" alt="Zynga"></li>
+                         <li style="margin-left: 0px;"><img src="./rsrc/images/clients/kiwi.png" alt="Kiwi"></li>
+                         <li style="margin-left: 0px;"><img src="./rsrc/images/clients/namco.png" alt="Namco"></li>
+
+                     </ul>
+                    </div><!-- @end .clients-wrap -->
+                  </div>
+             </div>
+
+
             <div class="bg-white border pt100 pb60">
                <div class="container">
-                  <h2 class="title" >Our TEAM</h2>
-                  <!-- <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.</p> -->
+                  <h2 class="title" >TEAM</h2>
+                  
                   <div class="mb70"></div>
-                  <!-- <div class="row">
-                     <div class="col-xss-12 col-xs-6 col-md-3">
-                        <div class="member">
-                           <figure><img src="./rsrc/member1.jpg" alt="member image"></figure>
-                           <h3>Mohamed Said</h3>
-                           <span>Co-Founder, Art Director</span>
-                        </div>
-                     </div>
-                     <div class="col-xss-12 col-xs-6 col-md-3">
-                        <div class="member">
-                           <figure><img src="./rsrc/member2.jpg" alt="member image"></figure>
-                           <h3>Mohamed Said</h3>
-                           <span>Web &amp; Graphic Designer</span>
-                        </div>
-                     </div>
-                     <div class="clearfix visible-sm visible-xs"></div>
-                     <div class="col-xss-12 col-xs-6 col-md-3">
-                        <div class="member">
-                           <figure><img src="./rsrc/member3.jpg" alt="member image"></figure>
-                           <h3>Mohamed Said</h3>
-                           <span>UI / UX Designer</span>
-                        </div>
-                     </div>
-                     <div class="col-xss-12 col-xs-6 col-md-3">
-                        <div class="member">
-                           <figure><img src="./rsrc/member4.jpg" alt="member image"></figure>
-                           <h3>Mohamed Said</h3>
-                           <span>Client Manager</span>
-                        </div>
-                     </div>
-                  </div> -->
+                  
                   <section class="pe-container">
 				<ul id="pe-thumbs" class="pe-thumbs">
 					<li style="z-index: 1;"><a href="#"><img src="./rsrc/images/thumbs/1.jpg" style="transform: scale(1); opacity: 0.2;"><div class="pe-description" style="height: 130px; top: -15px; left: 115px; display: none;"><h3>Mohsin Ali Afzal | C.E.O</h3><p>Since time, and his predestinated end</p></div></a></li>
