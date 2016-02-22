@@ -44,7 +44,7 @@ body a:hover {
 }
 @media only screen and (max-width: 767px) {
   #check1 .check1-inner {
-    height: 1em;
+    height: 1.5em;
     padding: 0 1em 1em;
   }
 }
@@ -145,8 +145,8 @@ body a:hover {
   display: none;
 }
 #mobile-check2 ul.mobile-check2 li, #mobile-check2 ul.mobile-user li, #mobile-user ul.mobile-check2 li, #mobile-user ul.mobile-user li {
-  background: rgba(158, 195, 91,0.7);
-  border-top: 1px solid #cdcdcd;
+  background: rgba(255, 255, 255, 0.87);
+  /*border-top: 1px solid #cdcdcd;*/
   text-align: center;
   width: 100%;
   padding: 15px 0;

@@ -34,174 +34,120 @@
   <link rel="apple-touch-icon" sizes="57x57" href="#themes/legendstatic/assets/./rsrc/images/icons/faviconx57.png">
   <link rel="apple-touch-icon" sizes="72x72" href="#themes/legendstatic/assets/./rsrc/images/icons/faviconx72.png"> -->
   <link rel="stylesheet" href="./rsrc/skin.css" type="text/css">
-  <!-- <script src="js" type="text/javascript"></script>
-  <script src="jquery.ba-outside-events.min.js"></script>
-  <script src="jquery.matchHeight-min.js"></script> -->
-
-  <!-- Google Font -->
-  <!-- <link href="css" rel="stylesheet" type="text/css">
-  <link href="css(1)" rel="stylesheet" type="text/css">
-  <link href="css(2)" rel="stylesheet" type="text/css"> -->
-
-<!-- <script type="text/javascript" charset="UTF-8" src="common.js"></script><script type="text/javascript" charset="UTF-8" src="util.js"></script><script type="text/javascript" charset="UTF-8" src="stats.js"></script> -->
+  <link rel="stylesheet" href="./rsrc/css/lightcase.css" type="text/css">
+  
 </head>
 
 <body>
-  <header>
+  <header style="position:fixed; width:100%; background-color:white; z-index:100;">
       <?php include ('header.php'); ?>
  </header>
-<!-- Start Header -->
+    <div class="main">
+            <div class="tagline light bg-gradient2" style="background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50) ),url('./rsrc/images/explottensBack.jpg'); max-width:100%; min-height:700px; background-position: center center;  background-repeat: no-repeat;    background-size: cover; background-attachment:fixed;">
+               <div class="container1">
+                <div class="row">
+                <div class="col-sm-6"  style="margin: 9% 0%;">
+                  <!-- <iframe style="border-right: 8px solid rgba(255,255,255,.7); border-left: 8px solid rgba(255,255,255,.7);    border-radius: 20px; padding:0% 1%;" id="framevid" src="https://player.vimeo.com/video/118679587?autoplay=1" width="550" height="309" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
 
-<!-- End Header -->
+                    <a  class="button line-blue " data-rel="lightcase:myCollection" href="https://player.vimeo.com/video/118679587"><video style="border-right: 8px solid rgba(255,255,255,.7); border-left: 8px solid rgba(255,255,255,.7);    border-radius: 20px; padding:0% 3%; width:100% !important; height: auto !important; max-width: 600px;" autoplay="autoplay" loop="loop"  name="Video Name" src="./rsrc/website_test.mov"></video>
+                    <img  style="max-width:100%;" id="playimage" class="big corner1" src="./rsrc/images/play.png" onmouseover="this.src='./rsrc/images/playhover.png'" onmouseout="this.src='./rsrc/images/play.png'" />
 
-<!-- Start Subheader -->
-
-<!-- End Subheader -->
-
-<!-- Start Features-Tabs -->
-
-
-<section class="features-tabs">
-  <div class="page-header" style="padding-top:172px; background-image: url(./rsrc/images/servicesBg.JPG);">
-               <!-- <div class="container">
-                  <h1>Games</h1>
-                  <p>Blah Blah Games</p>
-               </div> -->
-            </div>
-  <div class="container1">
-
-    <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12" style="margin-top: 20px; margin-bottom:20px;">
-        <div class="features-tabs">
-          <ul class="nav nav-tabs custom-list vertical-tab col-lg-4 col-md-4 col-sm-12" role="tablist">
-            <li class="active"><a href="##cars" role="tab" data-toggle="tab" aria-expanded="true"><h4>Quality Assurance</h4><span>We know how to do our work</span></a>
-            </li>
-            <li class=""><a href="##quality" role="tab" data-toggle="tab" aria-expanded="false"><h4>Art and Animation</h4><span>We hire only the best specialists</span></a>
-            </li>
-            <li class=""><a href="##politics" role="tab" data-toggle="tab" aria-expanded="false"><h4>Content Designing</h4><span>Our Fleet is up to date</span></a>
-            </li>
-            <li class=""><a href="##insurance" role="tab" data-toggle="tab" aria-expanded="false"><h4>Dev</h4><span>We’re in good company</span></a>
-            </li>
-          </ul>
-          <div class="tab-content col-lg-8 col-md-8 col-sm-12">
-            <div class="tab-pane has-bg-image active" data-bg-image="./rsrc/servc/images/qa.jpg" id="cars" style="background-image: url('./rsrc/servc/images/qa.jpg');">
-              <div class="caption">
-                <h3>Software QA</h3>
-                <p>Bugs got your application? we.R.play has a dedicated team of testers that make sure your apps are bug free and you are stress free.</p>
-              </div>
-            </div>
-            <div class="tab-pane has-bg-image" data-bg-image="./rsrc/servc/images/art.png" id="quality" style="background-image: url('./rsrc/servc/images/art.png');">
-              <div class="caption">
-                <h3>Our Experience</h3>
-                <p>Being on the market for over 120 years is enough to be said. We’ve built and renovated living space for millions of people around the world. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-              </div>
-            </div>
-            <div class="tab-pane has-bg-image" data-bg-image="img/tab-content-thumbnail.jpg" id="politics" style="background-image: url(&quot;img/tab-content-thumbnail.jpg&quot;);">
-              <div class="caption">
-                <h3>Our Hardware</h3>
-                <p>Being on the market for over 120 years is enough to be said. We’ve built and renovated living space for millions of people around the world. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-              </div>
-            </div>
-            <div class="tab-pane has-bg-image" data-bg-image="img/tab-content-thumbnail.jpg" id="insurance" style="background-image: url(&quot;img/tab-content-thumbnail.jpg&quot;);">
-              <div class="caption">
-                <h3>Our Partners</h3>
-                <p>Being on the market for over 120 years is enough to be said. We’ve built and renovated living space for millions of people around the world. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End Features-Tabs -->
-
-<!-- Start CTA -->
-<section class="cta">
-  <div class="container" >
-    <div class="row">
-      <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12" style="width:100%;">
-        <h3 class="title" style="letter-spacing:0px;"> <span class="color">We take pride and passion in our team and believe we have the finest talents available with incredible array of skills. We provide our very own services with a hard working team of artists, animators, developers and testers who are more than willing to contribute to your projects. Their hard work and determination is the reason why many of the world's most popular gaming companies come to. </span></h3>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
-        
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End CTA -->
-
-<!-- Start Offer -->
-
-<!-- End Offer -->
-
-<!-- Start CTA2 -->
-
-<!-- End CTA2 -->
-
-<!-- Start Clients -->
-<section class="clients">
-    <div class="container">
-        <div class="row">
-            <h4 class="title">Our Clients</h4>
-            <div class="clients-slider owl-carousel owl-theme" style="opacity: 1; display: block;">
-                <div class="owl-wrapper-outer">
-                    <div class="owl-wrapper" style="width: 2688px; left: 0px; display: block; transition: all 0ms ease; transform: translate3d(0px, 0px, 0px);">
-                        <div class="owl-item" style="width: 192px;">
-                            <div class="client"><img src="./rsrc/servc/images/client1.png" alt=""></div>
-                        </div>
-                        <div class="owl-item" style="width: 192px;">
-                            <div class="client"><img src="./rsrc/servc/images/client2.png" alt=""></div>
-                        </div>
-                        <div class="owl-item" style="width: 192px;">
-                            <div class="client"><img src="./rsrc/servc/images/client3.jpeg" alt=""></div>
-                        </div>
-                        <div class="owl-item" style="width: 192px;">
-                            <div class="client"><img src="./rsrc/servc/images/client4.png" alt=""></div>
-                        </div>
-                        <div class="owl-item" style="width: 192px;">
-                            <div class="client"><img src="./rsrc/servc/images/client5.png" alt=""></div>
-                        </div>
-                        <div class="owl-item" style="width: 192px;">
-                            <div class="client"><img src="./rsrc/servc/images/client6.png" alt=""></div>
-                        </div>
-                        <div class="owl-item" style="width: 192px;">
-                            <div class="client"><img src="./rsrc/servc/images/client7.png" alt=""></div>
-                        </div>
-                    </div>
+                  </a>
+                    <!-- <div class="video-overlay">
+                      <div class="video-overlay-icon"></div>
+                    </div> -->
+                    
+                    
                 </div>
-
-
-
-
-
-                <div class="owl-controls clickable">
-                    <div class="owl-pagination">
-                        <div class="owl-page active"><span class=""></span></div>
-                        <div class="owl-page"><span class=""></span></div>
-                    </div>
-                    <div class="owl-buttons">
-                        <div class="owl-prev">
-                            <div class="button prevSlide"><i class="fa fa-angle-left"></i></div>
-                        </div>
-                        <div class="owl-next">
-                            <div class="button nextSlide"><i class="fa fa-angle-right"></i></div>
-                        </div>
-                    </div>
+                <div class="col-sm-6" style="margin: 11% 0%;">
+                  <h3 style="font-size: 64px; color:#fff; font-family: 'font2', Verdana, sans-serif; font-weight: 400;">we.R.> artists. engineers. designers. testers. live-ops specialists.</h3>
                 </div>
+                </div>
+              </div>
             </div>
-        </div>
-    </div>
-</section>
-<!-- End Clients -->
 
-<!-- Start Footer -->
+            <!-- Art -->
+            <div class="pt100 pb70 pb85-xs" style="background: url('./rsrc/images/artBg.jpg'); background-position: center center;  background-repeat: no-repeat;    background-size: cover; background-attachment:fixed; border-top: 2px solid green;">
+               <div class="container">
+                <div class="row">
+                <div class="col-sm-6" style="margin: 9% 0%;">
+                  
+                </div>
+                <div class="col-sm-6" style="margin: 17% 0%;">
+                  <h3 style="font-size: 50px; color:#fff; font-family: 'font2', Verdana, sans-serif; font-weight: 400;">Art</h3>
+                  <p style="color:#A6ABAC;"> We've worked with some of the best in the business and our art work is seen by millions of people everyday across the world on their mobile devices and social networks.</p>
+                  <a href="portfolio.php" style="float:left; width:49%; background:#ADC94D; color:black; height:48px;" class="btn btn-custom btn-sm min-width">View Media</a>
+                </div>
+                </div>
+              </div>
+             </div>
+
+             <!-- QA -->
+            <div class="pt100 pb70 pb85-xs" style="background: url('./rsrc/images/background2.jpg'); background-position: center center;  background-repeat: no-repeat;    background-size: cover; background-attachment:fixed; border-top: 2px solid yellow;">
+               <div class="container">
+                <div class="row">
+                <div class="col-sm-6" style="margin: 9% 0%;">
+                  <h3 style="font-size: 50px; color:#fff; font-family: 'font2', Verdana, sans-serif; font-weight: 400;">Q.A.</h3>
+                  <p style="color:#A6ABAC;"> Bugs got your application? we.R.play has a dedicated team of testers that make sure your apps are bug free and you are stress free.</p>
+                  <a href="contactus.php" style="float:left; width:49%; background:#ADC94D; color:black; height:48px;" class="btn btn-custom btn-sm min-width">Contact us</a>
+                </div>
+                <div class="col-sm-6" style="margin: 17% 0%;">
+                  
+                </div>
+                </div>
+              </div>
+             </div>
+
+
+             <!-- Content Designing -->
+            <div class="pt100 pb70 pb85-xs" style="background: url('./rsrc/images/aboutGames.jpg'); background-position: center center;  background-repeat: no-repeat;    background-size: cover; background-attachment:fixed; border-top: 2px solid blue;">
+               <div class="container">
+                <div class="row">
+                <div class="col-sm-6" style="margin: 9% 0%;">
+                  
+                </div>
+                <div class="col-sm-6" style="margin: 17% 0%;">
+                  <h3 style="font-size: 50px; color:#fff; font-family: 'font2', Verdana, sans-serif; font-weight: 400;">Content Designing</h3>
+                  <p style="color:#A6ABAC;"> When it comes to content, we use pure creativity and develop quests for games so that our users have the most fun filled experience. We make, you play!</p>
+                  <a href="contactus.php" style="float:left; width:49%; background:#ADC94D; color:black; height:48px;" class="btn btn-custom btn-sm min-width">Contact us</a>
+                </div>
+                </div>
+              </div>
+             </div>
+
+             <!-- Developement -->
+            <div class="pt100 pb70 pb85-xs" style="background: url('./rsrc/images/aboutUs.jpg'); background-position: center center;  background-repeat: no-repeat;    background-size: cover; background-attachment:fixed; border-top: 2px solid red;">
+               <div class="container">
+                <div class="row">
+                <div class="col-sm-6" style="margin: 9% 0%;">
+                  <h3 style="font-size: 50px; color:#fff; font-family: 'font2', Verdana, sans-serif; font-weight: 400;">Development</h3>
+                  <p style="color:#A6ABAC;"> We take pride and passion in our team and believe we have the finest talents available with incredible array of skills.</p>
+                  <a href="view_games.php" style=" width:49%; background:#ADC94D; color:black; height:48px;" class="btn btn-custom btn-sm min-width">View Our Games</a>
+                </div>
+                <div class="col-sm-6" style="margin: 17% 0%;">
+                  
+                </div>
+                </div>
+              </div>
+             </div>
+
+
+
+    </div>
 <footer class="footer">
             
             <?php include ('footer.php'); ?>
          </footer>
       </div>
-      <a id="scroll-top" href="#top" title="Scroll top" class=""><i class="fa fa-angle-up"></i></a><script src="./rsrc/plugins.min.js"></script><script src="./rsrc/jquery.tweet.min.js"></script><script src="./rsrc/main.js"></script>
+      <a id="scroll-top" href="#top" title="Scroll top" class=""><i class="fa fa-angle-up"></i></a>
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script src="./rsrc/plugins.min.js"></script><script src="./rsrc/jquery.tweet.min.js"></script><script src="./rsrc/main.js"></script>
+      <script src="./rsrc/js/lightcase.js"></script>
+      <script type="text/javascript">
+         jQuery(document).ready(function($) {
+            $('a[data-rel^=lightcase]').lightcase();
+         });
+      </script>
 <!-- End Footer -->
 
 
