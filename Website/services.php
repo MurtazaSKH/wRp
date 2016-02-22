@@ -30,9 +30,10 @@
   <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all"> -->
   <script type="text/javascript" charset="utf-8" async="" src="https://platform.twitter.com/js/button.b059c0eb61ea902a882e5c5b3c66a17a.js"></script>
   <link href="./rsrc/responsivemenu.css" rel="stylesheet" type="text/css">
-  <!-- <link rel="icon" type="image/png" href="#themes/legendstatic/assets/./rsrc/images/icons/favicon.png">
-  <link rel="apple-touch-icon" sizes="57x57" href="#themes/legendstatic/assets/./rsrc/images/icons/faviconx57.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="#themes/legendstatic/assets/./rsrc/images/icons/faviconx72.png"> -->
+  <!-- favicon -->
+      <link rel="icon" type="image/png" href="./images/favicon.ico">
+      <link rel="apple-touch-icon" sizes="57x57" href="./images/favicon.ico">
+      <link rel="apple-touch-icon" sizes="72x72" href="./images/favicon.ico">
   <link rel="stylesheet" href="./rsrc/skin.css" type="text/css">
   <link rel="stylesheet" href="./rsrc/css/lightcase.css" type="text/css">
   
@@ -49,7 +50,7 @@
                 <div class="col-sm-6"  style="margin: 9% 0%;">
                   <!-- <iframe style="border-right: 8px solid rgba(255,255,255,.7); border-left: 8px solid rgba(255,255,255,.7);    border-radius: 20px; padding:0% 1%;" id="framevid" src="https://player.vimeo.com/video/118679587?autoplay=1" width="550" height="309" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
 
-                    <a  class="button line-blue " data-rel="lightcase:myCollection" href="https://player.vimeo.com/video/118679587"><video style="border-right: 8px solid rgba(255,255,255,.7); border-left: 8px solid rgba(255,255,255,.7);    border-radius: 20px; padding:0% 3%; width:100% !important; height: auto !important; max-width: 600px;" autoplay="autoplay" loop="loop"  name="Video Name" src="./rsrc/website_test.mov"></video>
+                    <a  class="button line-blue " data-rel="lightcase:myCollection" href="https://player.vimeo.com/video/118679587"><video style="border-right: 8px solid rgba(255,255,255,.7); border-left: 8px solid rgba(255,255,255,.7);    border-radius: 20px; padding:0% 5%; width:100% !important; height: auto !important; max-width: 600px;" autoplay="autoplay" loop="loop"  name="Video Name" src="./rsrc/website_test.mov"></video>
                     <img  style="max-width:100%;" id="playimage" class="big corner1" src="./rsrc/images/play.png" onmouseover="this.src='./rsrc/images/playhover.png'" onmouseout="this.src='./rsrc/images/play.png'" />
 
                   </a>
@@ -75,8 +76,8 @@
                 </div>
                 <div class="col-sm-6" style="margin: 17% 0%;">
                   <h3 style="font-size: 50px; color:#fff; font-family: 'font2', Verdana, sans-serif; font-weight: 400;">Art</h3>
-                  <p style="color:#A6ABAC;"> We've worked with some of the best in the business and our art work is seen by millions of people everyday across the world on their mobile devices and social networks.</p>
-                  <a href="portfolio.php" style="float:left; width:49%; background:#ADC94D; color:black; height:48px;" class="btn btn-custom btn-sm min-width">View Media</a>
+                  <p style="color:#A6ABAC;"> We've worked with some of the best in the business and our art work is seen by hundreds of millions of people everyday.<br>We're passionate about what we do and take incredible ownership to ensure that our partners succeed. Your success is our success.</p>
+                  <a href="portfolio.php" style="float:left; width:49%; background:#78AE4E; color:white; height:48px;" class="btn btn-custom btn-sm min-width">View Media</a>
                 </div>
                 </div>
               </div>
@@ -89,7 +90,7 @@
                 <div class="col-sm-6" style="margin: 9% 0%;">
                   <h3 style="font-size: 50px; color:#fff; font-family: 'font2', Verdana, sans-serif; font-weight: 400;">Q.A.</h3>
                   <p style="color:#A6ABAC;"> Bugs got your application? we.R.play has a dedicated team of testers that make sure your apps are bug free and you are stress free.</p>
-                  <a href="contactus.php" style="float:left; width:49%; background:#ADC94D; color:black; height:48px;" class="btn btn-custom btn-sm min-width">Contact us</a>
+                  <a href="contactus.php" style="float:left; width:49%; background:#A79814; color:white; height:48px;" class="btn btn-custom btn-sm min-width">Contact us</a>
                 </div>
                 <div class="col-sm-6" style="margin: 17% 0%;">
                   
@@ -109,7 +110,7 @@
                 <div class="col-sm-6" style="margin: 17% 0%;">
                   <h3 style="font-size: 50px; color:#fff; font-family: 'font2', Verdana, sans-serif; font-weight: 400;">Content Designing</h3>
                   <p style="color:#A6ABAC;"> When it comes to content, we use pure creativity and develop quests for games so that our users have the most fun filled experience. We make, you play!</p>
-                  <a href="contactus.php" style="float:left; width:49%; background:#ADC94D; color:black; height:48px;" class="btn btn-custom btn-sm min-width">Contact us</a>
+                  <a href="contactus.php" style="float:left; width:49%; background:#2763AD; color:white; height:48px;" class="btn btn-custom btn-sm min-width">Contact us</a>
                 </div>
                 </div>
               </div>
@@ -122,7 +123,7 @@
                 <div class="col-sm-6" style="margin: 9% 0%;">
                   <h3 style="font-size: 50px; color:#fff; font-family: 'font2', Verdana, sans-serif; font-weight: 400;">Development</h3>
                   <p style="color:#A6ABAC;"> We take pride and passion in our team and believe we have the finest talents available with incredible array of skills.</p>
-                  <a href="view_games.php" style=" width:49%; background:#ADC94D; color:black; height:48px;" class="btn btn-custom btn-sm min-width">View Our Games</a>
+                  <a href="view_games.php" style=" width:49%; background:#AF1D29; color:white; height:48px;" class="btn btn-custom btn-sm min-width">View Our Games</a>
                 </div>
                 <div class="col-sm-6" style="margin: 17% 0%;">
                   

@@ -18,9 +18,12 @@
       <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all"> -->
       <script type="text/javascript" charset="utf-8" async="" src="https://platform.twitter.com/js/button.b059c0eb61ea902a882e5c5b3c66a17a.js"></script>
       <link href="./rsrc/responsivemenu.css" rel="stylesheet" type="text/css">
-      <!-- <link rel="icon" type="image/png" href="#themes/legendstatic/assets/./rsrc/images/icons/favicon.png">
-      <link rel="apple-touch-icon" sizes="57x57" href="#themes/legendstatic/assets/./rsrc/images/icons/faviconx57.png">
-      <link rel="apple-touch-icon" sizes="72x72" href="#themes/legendstatic/assets/./rsrc/images/icons/faviconx72.png"> -->
+      
+      <!-- favicon -->
+      <link rel="icon" type="image/png" href="./images/favicon.ico">
+      <link rel="apple-touch-icon" sizes="57x57" href="./images/favicon.ico">
+      <link rel="apple-touch-icon" sizes="72x72" href="./images/favicon.ico">
+
       <link rel="stylesheet" href="./rsrc/skin.css" type="text/css">
       <link rel="stylesheet" href="./rsrc/css/testimonialslider.css" type="text/css">
 
@@ -73,7 +76,7 @@
 
             <div class="tagline light bg-gradient2" style="background: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30) ),url('./rsrc/images/sheeda.jpg'); max-width:100%; height:700px; background-position: center center;  background-repeat: no-repeat;    background-size: cover; background-attachment:fixed;">
                <div class="container">
-                  <h3 style="margin: 25% 6%; font-size: 75px; color:#fff; font-family: 'font2', Verdana, sans-serif; font-weight: 400;">we.R.> a digital product studio.</h3>
+                  <h3 style="margin: 25% 6%; font-size: 75px; color:#fff; font-family: 'font2', Verdana, sans-serif; font-weight: 400;">we.R.> a Digital Entertainment Studio.</h3>
                </div>
             </div>
             
