@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="./rsrc/style.css">
     <link href="./rsrc/hover.css" rel="stylesheet" media="all">
     <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all"> -->
-    <script type="text/javascript" charset="utf-8" async="" src="https://platform.twitter.com/js/button.b059c0eb61ea902a882e5c5b3c66a17a.js"></script>
+    
     <link href="./rsrc/responsivemenu.css" rel="stylesheet" type="text/css">
     <!-- favicon -->
       <link rel="icon" type="image/png" href="./images/favicon.ico">

@@ -156,12 +156,45 @@ body a:hover {
   display: block;
 }
 
-#mobile-user {
+#mobile-check3, #mobile-user {
+  /*background: url("http://startersitev2.wmg-gardens.com/sites/startersitev2.wmg-gardens.com/files/201306/home-onepage-mobile_menu.png") no-repeat scroll right 0 transparent;
+  cursor: pointer;
+  height: 1.25em;
+  margin-top: -40px;
+  float: right;
+  width: 1.5625em;*/
+}
+@media only screen and (min-width: 768px) {
+  #mobile-check3, #mobile-user {
+    display: none;
+  }
+}
+#mobile-check3 ul.mobile-check3, #mobile-check3 ul.mobile-user, #mobile-user ul.mobile-check3, #mobile-user ul.mobile-user {
+  position: absolute;
+  left: 0;
+  top: 60px;
+  width: 100%;
+  z-index: 100000;
+  display: none;
+}
+#mobile-check3 ul.mobile-check3 li, #mobile-check3 ul.mobile-user li, #mobile-user ul.mobile-check3 li, #mobile-user ul.mobile-user li {
+  background: rgba(255, 255, 255, 0.87);
+  /*border-top: 1px solid #cdcdcd;*/
+  text-align: center;
+  width: 100%;
+  padding: 15px 0;
+  margin: 0;
+}
+#mobile-check3 ul.mobile-check3 li a, #mobile-check3 ul.mobile-user li a, #mobile-user ul.mobile-check3 li a, #mobile-user ul.mobile-user li a {
+  display: block;
+}
+
+/*#mobile-user {
   background: url("http://s.cdpn.io/17920/head_2.png") no-repeat scroll right 0 transparent;
   height: 21px;
   margin-right: 15px;
   margin-top: -24px;
-}
+}*/
 
 .hat {
   background: #000;

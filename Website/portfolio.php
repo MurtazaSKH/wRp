@@ -1,24 +1,19 @@
 <!DOCTYPE html>
-<!-- saved from url=(0062)# -->
 <html>
    <!--<![endif]-->
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       <meta charset="utf-8">
-      <title>we.R.play | Games</title>
+      <title>we.R.play | Media</title>
       <meta name="description" content="Multipurpose and creative template">
-      <!--[if IE]>
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <![endif]-->
       
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <link rel="stylesheet" href="./rsrc/plugins.min.css">
       <link rel="stylesheet" href="./rsrc/layerslider.css">
       <link rel="stylesheet" href="./rsrc/style.css">
-      <link href="./rsrc/hover.css" rel="stylesheet" media="all">
-      <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all"> -->
-      <script type="text/javascript" charset="utf-8" async="" src="https://platform.twitter.com/js/button.b059c0eb61ea902a882e5c5b3c66a17a.js"></script>
+      <link href="./rsrc/hover.css" rel="stylesheet" media="all">      
+      
       <link href="./rsrc/responsivemenu.css" rel="stylesheet" type="text/css">
       <!-- favicon -->
       <link rel="icon" type="image/png" href="./images/favicon.ico">
@@ -74,7 +69,6 @@
                               <a  class="button line-blue" data-rel="lightcase:myCollection" href="https://www.facebook.com/video/embed?video_id=954230407933391"><img xmlns="http://www.w3.org/1999/xhtml" style="max-width:100%;" class="thumbnail videos-thumbnail" src="./rsrc/images/portfolio/lipdub.png" />
                                  <img  style="max-width:100%;" id="playimage" class="big corner3" src="./rsrc/images/play.png" onmouseover="this.src='./rsrc/images/playhover.png'" onmouseout="this.src='./rsrc/images/play.png'" />
                               </a>
-                              <!-- <div id="fb-root"></div><script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script><div class="fb-video" data-allowfullscreen="1" data-href="/we.R.play/videos/vb.155716841118089/954230407933391/?type=3"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/we.R.play/videos/954230407933391/"><a href="https://www.facebook.com/we.R.play/videos/954230407933391/">weRplay LipDub!</a><p>We&#039;ve turned 5! Stand up for the champions!</p>Posted by <a href="https://www.facebook.com/we.R.play/">we.R.play</a> on Sunday, August 30, 2015</blockquote></div></div> -->
                            </div>
                            <div class="col-sm-3" >
                               <a  class="button line-blue" data-rel="lightcase:myCollection" href="https://player.vimeo.com/video/111217409"><img xmlns="http://www.w3.org/1999/xhtml" style="max-width:100%;" class="thumbnail videos-thumbnail" src="./rsrc/images/portfolio/hex.png" />
@@ -82,9 +76,9 @@
                               </a>
                            </div>
                            <div class="col-sm-3" >
-                              <a  class="button line-blue" data-rel="lightcase:myCollection" href="https://player.vimeo.com/video/60996290"><img xmlns="http://www.w3.org/1999/xhtml" style="max-width:100%;" class="thumbnail videos-thumbnail" src="./rsrc/images/portfolio/jump.png" />
+                              <a  class="button line-blue" data-rel="lightcase:myCollection" href="https://player.vimeo.com/video/85523709"><img xmlns="http://www.w3.org/1999/xhtml" style="max-width:100%;" class="thumbnail videos-thumbnail" src="./rsrc/images/portfolio/jump.jpg" />
                                  <img  style="max-width:100%;" id="playimage" class="big corner3" src="./rsrc/images/play.png" onmouseover="this.src='./rsrc/images/playhover.png'" onmouseout="this.src='./rsrc/images/play.png'" />
-                                 
+
                               </a>
                            </div>
                   </div>

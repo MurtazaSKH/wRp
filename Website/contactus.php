@@ -20,7 +20,7 @@
       <link rel="stylesheet" href="./rsrc/style.css">
       <link href="./rsrc/hover.css" rel="stylesheet" media="all">
       <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all"> -->
-      <script type="text/javascript" charset="utf-8" async="" src="https://platform.twitter.com/js/button.b059c0eb61ea902a882e5c5b3c66a17a.js"></script>
+      
       <link href="./rsrc/responsivemenu.css" rel="stylesheet" type="text/css">
       <!-- favicon -->
       <link rel="icon" type="image/png" href="./images/favicon.ico">
@@ -28,9 +28,7 @@
       <link rel="apple-touch-icon" sizes="72x72" href="./images/favicon.ico">
       <link rel="stylesheet" href="./rsrc/skin.css" type="text/css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-      <!-- <link rel="icon" type="image/png" href="http://themerly.com/themes/legendstatic/assets/./rsrc/images/icons/favicon.png">
-      <link rel="apple-touch-icon" sizes="57x57" href="http://themerly.com/themes/legendstatic/assets/./rsrc/images/icons/faviconx57.png">
-      <link rel="apple-touch-icon" sizes="72x72" href="http://themerly.com/themes/legendstatic/assets/./rsrc/images/icons/faviconx72.png"> -->
+      
       <script type="text/javascript" charset="UTF-8" src="./rsrc/common.js"></script><script type="text/javascript" charset="UTF-8" src="./rsrc/map.js"></script><script type="text/javascript" charset="UTF-8" src="./rsrc/util.js"></script><script type="text/javascript" charset="UTF-8" src="./rsrc/marker.js"></script><script type="text/javascript" charset="UTF-8" src="./rsrc/onion.js"></script><script type="text/javascript" charset="UTF-8" src="./rsrc/stats.js"></script><script type="text/javascript" charset="UTF-8" src="./rsrc/infowindow.js"></script><script type="text/javascript" charset="UTF-8" src="./rsrc/controls.js"></script>
       <script src="https://www.google.com/recaptcha/api.js" async defer></script>
       <style type="text/css">@-webkit-keyframes _gm6448 {

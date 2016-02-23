@@ -22,13 +22,13 @@
   <script src="./rsrc/servc/owl.carousel.js"></script>
   <!-- <script src="jquery.vide.min.js"></script> -->
   <script src="./rsrc/servc/tabs.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>-->
   <link rel="stylesheet" href="./rsrc/plugins.min.css">
   <link rel="stylesheet" href="./rsrc/layerslider.css">
   <link rel="stylesheet" href="./rsrc/style.css">
   <link href="./rsrc/hover.css" rel="stylesheet" media="all">
   <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all"> -->
-  <script type="text/javascript" charset="utf-8" async="" src="https://platform.twitter.com/js/button.b059c0eb61ea902a882e5c5b3c66a17a.js"></script>
+  
   <link href="./rsrc/responsivemenu.css" rel="stylesheet" type="text/css">
   <!-- favicon -->
       <link rel="icon" type="image/png" href="./images/favicon.ico">
@@ -141,7 +141,7 @@
          </footer>
       </div>
       <a id="scroll-top" href="#top" title="Scroll top" class=""><i class="fa fa-angle-up"></i></a>
-      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->      
       <script src="./rsrc/plugins.min.js"></script><script src="./rsrc/jquery.tweet.min.js"></script><script src="./rsrc/main.js"></script>
       <script src="./rsrc/js/lightcase.js"></script>
       <script type="text/javascript">

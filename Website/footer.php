@@ -8,6 +8,11 @@
               <div class="navbar">
                 <div class="logo" id="logobottom" style="top:-68%;">
                   <img src="./rsrc/images/temp.png" /></div>
+                  <div id="mobile-check3" style="text-align:center;">
+                  
+                    we.R.play | Copyright 2016
+                  
+                </div>
                 <div class="check2" style="margin-top: 14px;">
                   <ul class="check2">
                     <li class="first leaf"><a style="color:#4A5459; margin-left:-82px; padding-left:20px; padding-right:20px;" title="" class="hvr-underline-reveal" href="http://press.werplay.com/">Press Kit</a></li>

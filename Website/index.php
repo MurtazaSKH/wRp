@@ -16,7 +16,7 @@
       <link rel="stylesheet" href="./rsrc/style.css">
       <link href="./rsrc/hover.css" rel="stylesheet" media="all">
       <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all"> -->
-      <script type="text/javascript" charset="utf-8" async="" src="https://platform.twitter.com/js/button.b059c0eb61ea902a882e5c5b3c66a17a.js"></script>
+      
       <link href="./rsrc/responsivemenu.css" rel="stylesheet" type="text/css">
       
       <!-- favicon -->
@@ -29,6 +29,12 @@
 
       <link rel="stylesheet" type="text/css" href="./rsrc/slick/slick-theme.css"/>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+      <!-- Facebook tags -->
+      <meta property="og:title" content="Come visit us at our home!"/>
+      <meta property="og:image" content="http://www.werplay.com/rsrc/images/sheeda.png"/>
+      <meta property="og:site_name" content="we.R.play | Official"/>
+      <meta property="og:description" content="we.R.play is trusted by some of the best in the industry to create amazing art, design compelling content, test code and manage live-ops for titles with many millions of daily active users."/>
       
    </head>
    <body >
@@ -76,7 +82,7 @@
 
             <div class="tagline light bg-gradient2" style="background: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30) ),url('./rsrc/images/sheeda.jpg'); max-width:100%; height:700px; background-position: center center;  background-repeat: no-repeat;    background-size: cover; background-attachment:fixed;">
                <div class="container">
-                  <h3 style="margin: 25% 6%; font-size: 75px; color:#fff; font-family: 'font2', Verdana, sans-serif; font-weight: 400;">we.R.> a Digital Entertainment Studio.</h3>
+                  <h3 style="margin: 25% 6%; font-size: 75px; color:#fff; font-family: 'font2', Verdana, sans-serif; font-weight: 400; overflow:hidden;">we.R.> a Digital Entertainment Studio.</h3>
                </div>
             </div>
             
@@ -100,7 +106,7 @@
                            </div>
                            <a class="left carousel-control" href="#blog-post-id" role="button" data-slide="prev">&lt;<span class="sr-only">Previous</span></a> <a class="right carousel-control" href="#blog-post-id" role="button" data-slide="next">&gt;<span class="sr-only">Next</span></a>
                         </figure>
-                        <p style="color:#A6ABAC;">Our games have been downloaded over 5MM times and have also been featured multiple times by Apple and Google on their stores in various categories such as "Best New Games" and "New & Noteworthy".</p>
+                        <p style="color:#A6ABAC;">Our games have been downloaded over 5M times and have also been featured multiple times by Apple and Google on their stores in various categories such as "Best New Games" and "New & Noteworthy".</p>
                         </div>
 
                         <div class="portfolio-item" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp; position: absolute; left: 399px; top: 0px;">

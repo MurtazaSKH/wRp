@@ -5128,7 +5128,7 @@ textarea.form-control {
     }
 }
 .footer {
-    background-color: #141515;
+    /*background-color: #141515;*/
     font-weight: 300;
     line-height: 2.5rem
 }
