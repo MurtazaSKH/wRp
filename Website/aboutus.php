@@ -86,7 +86,7 @@
             <!-- @end .clients-wrap -->
          </div>
       </div>
-      <div class="pt100 pb70 pb85-xs" style="background: url('./rsrc/images/aboutUs.jpg'); background-position: center center;  background-repeat: no-repeat;    background-size: cover; background-attachment:fixed; border-top: 2px solid red;">
+      <div class="pt100 pb70 pb85-xs" id="teamHover" style="background: url('./rsrc/images/aboutUs.jpg'); background-position: center center;  background-repeat: no-repeat;    background-size: cover; background-attachment:fixed; border-top: 2px solid red;">
          <div class="container">
             <div class="row">
                <h2 class="title" style="color:white;">TEAM</h2>
@@ -120,7 +120,7 @@
                            </div>
                         </a>
                      </li>
-                     <li style="z-index: 1; opacity:0.6;">
+                     <li style="z-index: 1; opacity:0.4;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/78.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
@@ -268,7 +268,7 @@
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/19.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
-                              <h3>Bilal Mirza</h3>
+                              <h3>Bilal Mirza | Lead Developer</h3>
                               <p>"A Fast-Nu graduate in computer sciences. Currently working as a game developer in WeRplay. He loves to play Basketball, Volleyball, Table Tennis, Football, Badminton and of course Video games.</p>
                            </div>
                         </a>
@@ -340,7 +340,7 @@
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/27.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
-                              <h3>Khadija Anjum</h3>
+                              <h3>Khadija Anjum | Lead Content Designer</h3>
                               <p>Khadija has black and bullet proof personality, spiritual and sound mind.Takes life step by step as opposed to the clichéd roller coaster ride.Firstly,she is not much of speed fanatic.Secondly,she would like to spend time in the planet wisely,to travel far and explore waters…and inhale and breathe.Die in slumber than accidentally.Want to make herself a better person before implying it on the whole world.</p>
                            </div>
                         </a>
@@ -349,7 +349,7 @@
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/28.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
-                              <h3>Tahreem Khalid</h3>
+                              <h3>Tahreem Khalid | Content Designer</h3>
                               <p>Born in the City of Lights,Karachi. She has done Computer Systems Engineering from EME,NUST.She is working as a Quality Assurance Analyst at weRplay.Loves to read and music is her life.In another life,she would either be a fashion designer or an architect.</p>
                            </div>
                         </a>
@@ -379,8 +379,8 @@ and kill them. Happy Killing :P</p>
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/31.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
-                              <h3>Javeria Ali</h3>
-                              <p>Not that he was above the spleenful sense</p>
+                              <h3>Javeria Ali | 2D Artist</h3>
+                              <p>Javeria is a self taught artist who has always been interested in both art and science, as well as anime/manga & games. She also happens to be an Erasmus scholar, with a Masters in Science degree, who stumbled across a profession that catered to her creative side. She harbors a strong desire to visit Japan (particularly the Gundam Museum) since...forever.</p>
                            </div>
                         </a>
                      </li>
@@ -388,7 +388,7 @@ and kill them. Happy Killing :P</p>
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/32.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
-                              <h3>Qurat ul Ain Naqvi</h3>
+                              <h3>Qurat ul Ain Naqvi | QA Lead</h3>
                               <p>I am a student of MCS.I worked as a SQA engineer and had a lot of fun along the work experience enough to build up my basics for excelling in my professional life, now joined weRplay with the passion to learn more and add up to my skills and expertise. I love to spend free time with friends, playing Table tennis, watching animated movies and listening to music.</p>
                            </div>
                         </a>
@@ -398,7 +398,7 @@ and kill them. Happy Killing :P</p>
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/34.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
-                              <h3>Rabiya Mansour</h3>
+                              <h3>Rabiya Mansour | QA Analyst</h3>
                               <p>"Electrical Engineer</p>
                            </div>
                         </a>
@@ -407,7 +407,7 @@ and kill them. Happy Killing :P</p>
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/35.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
-                              <h3>Madiha Zulfiqar</h3>
+                              <h3>Madiha Zulfiqar | QA Lead</h3>
                               <p>Yet who is he so absolutely blest</p>
                            </div>
                         </a>
@@ -452,7 +452,7 @@ and kill them. Happy Killing :P</p>
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/40.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
-                              <h3>Humaira Waseem</h3>
+                              <h3>Humaira Waseem | QA Lead</h3>
                               <p>Telecom Engineer from FAST since 2012. She is passionate about flying and allergic to doctors/chillies/cats. =p</p>
                            </div>
                         </a>
@@ -479,8 +479,8 @@ and kill them. Happy Killing :P</p>
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/43.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
-                              <h3>Emmad Toor</h3>
-                              <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
+                              <h3>Emmad Toor | QA Analyst</h3>
+                              <p>BS in Computer Science from FAST. Loves reading , traveling, sleeping and of course playing games. </p>
                            </div>
                         </a>
                      </li>
@@ -497,7 +497,7 @@ and kill them. Happy Killing :P</p>
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/45.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
-                              <h3>Nauman Naseer</h3>
+                              <h3>Nauman Naseer | IT Expert</h3>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
@@ -524,7 +524,7 @@ and kill them. Happy Killing :P</p>
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/48.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
-                              <h3>Yusra Kausar</h3>
+                              <h3>Yusra Kausar | QA Analyst</h3>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
@@ -533,7 +533,7 @@ and kill them. Happy Killing :P</p>
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/49.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
-                              <h3>Noor Fatima</h3>
+                              <h3>Noor Fatima | Developer</h3>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
@@ -542,7 +542,7 @@ and kill them. Happy Killing :P</p>
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/50.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
-                              <h3>Fatima Sabir</h3>
+                              <h3>Fatima Sabir | QA Analyst</h3>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
@@ -579,7 +579,7 @@ and kill them. Happy Killing :P</p>
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/54.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
-                              <h3>Anoshia Javed</h3>
+                              <h3>Anoshia Javed | QA Lead</h3>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
@@ -588,8 +588,8 @@ and kill them. Happy Killing :P</p>
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/55a.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
-                              <h3>Azza Shahid</h3>
-                              <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
+                              <h3>Azza Shahid | QA Analyst</h3>
+                              <p>Computer Scientist from FAST</p>
                            </div>
                         </a>
                      </li>
@@ -597,7 +597,7 @@ and kill them. Happy Killing :P</p>
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/56.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
-                              <h3>Wafa Zainab</h3>
+                              <h3>Wafa Zainab | QA Analyst</h3>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
@@ -606,8 +606,8 @@ and kill them. Happy Killing :P</p>
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/57a.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
-                              <h3>Beenish Zahoor</h3>
-                              <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
+                              <h3>Beenish Zahoor | QA Analyst</h3>
+                              <p>Computer Scientist from FAST</p>
                            </div>
                         </a>
                      </li>
@@ -615,7 +615,7 @@ and kill them. Happy Killing :P</p>
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/58.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
-                              <h3>Daniyal Shafiq</h3>
+                              <h3>Daniyal Shafiq | QA Analyst</h3>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
@@ -624,7 +624,7 @@ and kill them. Happy Killing :P</p>
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/59a.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
-                              <h3>Farhan Anjum</h3>
+                              <h3>Farhan Anjum | QA Analyst</h3>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
@@ -633,7 +633,7 @@ and kill them. Happy Killing :P</p>
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/60.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
-                              <h3>Fatima Najam</h3>
+                              <h3>Fatima Najam | QA Analyst</h3>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
@@ -643,7 +643,7 @@ and kill them. Happy Killing :P</p>
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/61.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
-                              <h3>Areeba Ajaz</h3>
+                              <h3>Areeba Ajaz | QA Lead</h3>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
@@ -652,7 +652,7 @@ and kill them. Happy Killing :P</p>
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/62.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
-                              <h3>Rida Batool</h3>
+                              <h3>Rida Batool | QA Lead</h3>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
@@ -661,7 +661,7 @@ and kill them. Happy Killing :P</p>
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/63.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
-                              <h3>Jamshaid Khan Barki</h3>
+                              <h3>Jamshaid Khan Barki | QA Analyst</h3>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
@@ -670,7 +670,7 @@ and kill them. Happy Killing :P</p>
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/64.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
-                              <h3>Hasni Amir</h3>
+                              <h3>Hasni Amir | QA Analyst</h3>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
@@ -679,7 +679,7 @@ and kill them. Happy Killing :P</p>
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/65.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
-                              <h3>Muhammad Haris</h3>
+                              <h3>Muhammad Haris | QA Analyst</h3>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
@@ -688,7 +688,7 @@ and kill them. Happy Killing :P</p>
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/66.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
-                              <h3>Omer Mashood</h3>
+                              <h3>Omer Mashood | QA Analyst</h3>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
@@ -697,7 +697,7 @@ and kill them. Happy Killing :P</p>
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/67.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
-                              <h3>Sameer Hussain</h3>
+                              <h3>Sameer Hussain | Developer</h3>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
@@ -706,7 +706,7 @@ and kill them. Happy Killing :P</p>
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/68.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
-                              <h3>Sarah Qadree</h3>
+                              <h3>Sarah Qadree | QA Analyst</h3>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
@@ -724,7 +724,7 @@ and kill them. Happy Killing :P</p>
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/70.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
-                              <h3>Usman Khan</h3>
+                              <h3>Usman Khan | Head of marketing</h3>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
@@ -734,7 +734,7 @@ and kill them. Happy Killing :P</p>
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/71.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
-                              <h3>Ahmed Faraz</h3>
+                              <h3>Ahmed Faraz | Artist</h3>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>

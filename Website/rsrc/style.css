@@ -3865,7 +3865,7 @@ body.open-menu.push-menu.right-menu #wrapper {
 }
 .carousel-control:focus,
 .carousel-control:hover {
-    background-color: rgba(60, 81, 178, .5)
+    /*background-color: rgba(60, 81, 178, .5)*/
 }
 .carousel-control.left {
     border-radius: 0 4px 4px 0;
@@ -4669,6 +4669,13 @@ body.open-menu.push-menu.right-menu #wrapper {
 @media (max-width: 1199px) {
     .max-col-2 .portfolio-item.overlay-item .portfolio-desc {
         display: none
+    }
+}
+
+@media (max-width: 1180px) {
+    .corner1
+    {
+    margin: -34% 46%;
     }
 }
 .row>#portfolio-item-container>.portfolio-item {
@@ -5486,5 +5493,10 @@ textarea.form-control {
         display: none;
         visibility: hidden;
         opacity: 0
+    }
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    #teamHover {
+        display: none; 
     }
 }

@@ -51,6 +51,7 @@
 	border-radius: 8px;
 	font-size: 1.25em;
 	color: #1e528e;
+	min-height: 314px;
 }
 .bubble blockquote:before, .bubble blockquote:after {
 	content: "\201C";

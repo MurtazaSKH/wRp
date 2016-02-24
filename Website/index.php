@@ -28,6 +28,7 @@
       <link rel="stylesheet" href="./rsrc/css/testimonialslider.css" type="text/css">
 
       <link rel="stylesheet" type="text/css" href="./rsrc/slick/slick-theme.css"/>
+      <link rel="stylesheet" type="text/css" href="./rsrc/slick/slick.css"/>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
       <!-- Facebook tags -->
@@ -36,6 +37,11 @@
       <meta property="og:site_name" content="we.R.play | Official"/>
       <meta property="og:description" content="we.R.play is trusted by some of the best in the industry to create amazing art, design compelling content, test code and manage live-ops for titles with many millions of daily active users."/>
       
+      <style type="text/css">
+      .no-fouc {
+        display: none;
+      }
+      </style>
    </head>
    <body >
       
@@ -136,79 +142,38 @@
                <div class="container">
                   
                   
-                  <!-- <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus language would be desirable: one could .</p>
-                  <div class="tagline-action"><a href="#" class="btn btn-white btn-sm btn-border min-width">Purchase</a> <a href="#" class="btn btn-white btn-sm min-width">Screenshots</a></div>
-                   -->
-                   <!-- <div class="mb100"></div> -->
-                   <!-- image here -->
-                      <!-- <div style="float:left;">
-                        <figure>
-                          <img src="./rsrc/images/losttwins2.png" alt="member image" style="margin-left:-963px;" width="20%">
-                        </figure>
-                      </div> -->
                    <div class="row" stye="">
-                    <h3 class="title" style="color:#4A5459; font-family:'font2'; text-align:left;" >Testimonials</h3>
-                     <!-- <div class="col-sm-">
-                        
-                     </div> -->
-
-                     <!-- <div class="col-sm-6" style="">
-                        <div class="service-box">
-                           <h3 class="service-title">Our new site is coming LIVE!</h3>
-                           <h4 class="service-title">21st January 2016</h4>
-                           <p style="color:#a0a4a5; text-align:left;">Example preview content here.  This is just some example content to show a preview of a blog post.  Example preview content here.  This is just some example content to show a preview of a blog post.  Example preview content here.  This is just some example content to show a preview of a blog post.  Example preview content here.  This is just some example content to show a preview of a blog post. </p>
-                           <a href="#"  class="btn btn-custom btn-border btn-rounded btn-sm">Read more</a>
-                        </div>
-                     </div>
+                    <h3 class="title" style="color:#4A5459; font-family:'font2'; text-align:left;" >Testimonials / Quotes</h3>
                      
-                     <div class="col-sm-6">
-                        <div class="service-box">
-                           <h3 class="service-title">Explottens Update</h3>
-                           <h4 class="service-title">21st January 2016</h4>
-                           <p style="color:#a0a4a5; text-align:left;">Example preview content here.  This is just some example content to show a preview of a blog post.  Example preview content here.  This is just some example content to show a preview of a blog post.  Example preview content here.  This is just some example content to show a preview of a blog post.  Example preview content here.  This is just some example content to show a preview of a blog post.  </p>
-                           <a href="#"  class="btn btn-custom btn-border btn-rounded btn-sm">Read more <i class="fa fa-angle-book"></i></a>
-                        </div>                     
-                     </div> -->
 
                      <!-- Testimonial Slider -->
 
 
                        <div class="col-sm-12">
+                        <section class="quotes">
                        <div class="bubble">
                          <blockquote>Working with WeRPlay's content designers, artists, and QA team has been one of the great joys of my career. They are so much more than an "outsource" company - they are artistic collaborators, eagle-eyed QA support, experts at refining process, game to do any task no matter how large or data-entryish, and after years of working together, they are great friends. Whenever I've needed extra support, my first question has been, "Can we work with WeRPlay?" I enthusiastically recommend them both as talented gamemakers and as a group of people who are a joy to work with.
                       </blockquote>
                          <div></div>
-                         <h2 class="title" style="font-size:1.5em;"> Amy Claussen, Pocketgems.</h2> </div>
-                      </div>
-                         <!-- <div class="col-sm-12">
-                       <div class="bubble">
-                         <blockquote> weRplay is one of the best QA partners we have. They are adaptable and always willing to learn new techniques and processes. Moreover, they never over commit - when they say they can do something they mean it. Great partner, dependable QA services and a delight to work with every day.
-                     </blockquote>
-                         <div></div>
-                         <h2 class="title" style="font-size:1.5em;"> Raymond T. Vizzone, Pocketgems</h2> </div>
-                      </div> -->
+                         <h2 class="title" style="font-size:1.5em;"> Amy Claussen, Pocketgems.</h2>
+                       </div>
 
-                     <!-- <section class="quotes">
-                       <div class="bubble">
-                         <blockquote>I refuse to accept the view that mankind is so tragically bound to the starless midnight of racism and war that the bright daybreak of peace and brotherhood can never become a reality... I believe that unarmed truth and unconditional love will have the final word.
+                         <div class="bubble">
+                         <blockquote>weRplay is one of the best QA partners we have. They are adaptable and always willing to learn new techniques and processes. Moreover, they never over commit - when they say they can do something they mean it. Great partner, dependable QA services and a delight to work with every day.
                       </blockquote>
                          <div></div>
-                         <cite> Martin Luther King, Jr.</cite> </div>
+                         <h2 class="title" style="font-size:1.5em;"> Raymond T. Vizzone, Pocketgems.</h2>
+                       </div>
+
                        <div class="bubble">
-                         <blockquote> Peace is not a relationship of nations. It is a condition of mind brought about by a serenity of soul. Peace is not merely the absence of war. It is also a state of mind. Lasting peace can come only to peaceful people.
-                     </blockquote>
+                         <blockquote>We have been working with WeRPlay for over three years now to QA test all of our games, and we could not be more pleased. WeRPlay's team is diligent, expedient, and extremely attentive to detail; precisely what any product developer would want from a QA testing partner. Besides identifying bugs and providing game design feedback, there were numerous occasions where WeRPlay went out of their way to accommodate our demanding schedule and tight deadlines. We highly recommend them to anyone looking for solid QA testing.
+                      </blockquote>
                          <div></div>
-                         <cite> Jawaharlal Nehru</cite> </div>
-                       <div class="bubble">
-                         <blockquote> Forgiveness is not always easy. At times, it feels more painful than the wound we suffered, to forgive the one that inflicted it. And yet, there is no peace without forgiveness.
-                     </blockquote>
-                         <div></div>
-                         <cite> Marianne Williamson</cite> </div>
-                       <div class="bubble">
-                         <blockquote>Of all our dreams today there is none more important - or so hard to realise - than that of peace in the world. May we never lose our faith in it or our resolve to do everything that can be done to convert it one day into reality. </blockquote>
-                         <div></div>
-                         <cite> Lester B. Pearson</cite> </div>
-                     </section> -->
+                         <h2 class="title" style="font-size:1.5em;"> - Abdullah Alzabin, Founder & CEO of Lumba, Inc.</h2>
+                       </div>
+
+                       </section>
+                      </div>
                  </div>
                </div>
             </div>
@@ -226,6 +191,23 @@
       <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
       <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
       <script type="text/javascript" src="./rsrc/slick/slick.min.js"></script>
-      <script src="./rsrc/js/testimonialslider.js"></script>
+      <script>
+
+
+          $('.quotes').slick({
+            dots: true,
+            infinite: true,
+            autoplay: true,
+            autoplaySpeed: 10000,
+            speed: 800,
+            slidesToShow: 1,
+            // adaptiveHeight: true
+          });
+
+
+          $( document ).ready(function() {
+          $('.no-fouc').removeClass('no-fouc');
+          });
+      </script>
    </body>
 </html>
