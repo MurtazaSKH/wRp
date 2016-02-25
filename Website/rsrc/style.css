@@ -636,9 +636,9 @@ h6 {
 }
 .title>span {
     /*background-color: #fff;*/
-    color:#fff;
+    /*color:#fff;
     font-family: sans-serif;
-    padding-right: 35px
+    padding-right: 35px*/
 }
 .title.min-width>span {
     min-width: 270px
@@ -4672,7 +4672,7 @@ body.open-menu.push-menu.right-menu #wrapper {
     }
 }
 
-@media (max-width: 1180px) {
+@media (max-width: 1180px) and (min-width: 699px) {
     .corner1
     {
     margin: -34% 46%;

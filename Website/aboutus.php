@@ -61,7 +61,7 @@
                <h2 class="title" style="color:white;">Our Story</h2>
                <p style="color:white;">we.R.play was founded in August 2010 and the goal was to create a creative studio unlike any other in Pakistan (but hopefully like many great ones in other parts of the world). A studio that provided a super fun, autonomous environment to a talented, creative team. 5 years later, we.R.play has grown to a team of over 95 artists, content designers, engineers and qa analysts. <br><br>
                   we.R.play is trusted by some of the best in the industry to create amazing art, design compelling content, test code and manage live-ops for titles with many millions of daily active users. PocketGems, Zynga, RockYou, Kiwi, Disney Interactive, Chillingo, Chimera Entertainment, Namco Bandai, Mighty Play, are some of the partners we.R.play works with. <br><br>
-                  we.R.play is also an indie game developer and our games have been downloaded over 5MM times across various platforms. A small team is at the heart of we.R.play games and is focused on creating original, awesome, fun games. Our games have been featured multiple times by Apple and Google on their stores in various categories such as "Best New Games" and "New & Noteworthy".
+                  we.R.play is also an indie game developer and our games have been downloaded over 5M times across various platforms. A small team is at the heart of we.R.play games and is focused on creating original, awesome, fun games. Our games have been featured multiple times by Apple and Google on their stores in various categories such as "Best New Games" and "New & Noteworthy".
                </p>
             </div>
          </div>

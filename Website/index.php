@@ -143,37 +143,41 @@
                   
                   
                    <div class="row" stye="">
-                    <h3 class="title" style="color:#4A5459; font-family:'font2'; text-align:left;" >Testimonials / Quotes</h3>
+                    <h3 class="title" style="color:#4A5459; font-family:'font2'; padding-left:14px; text-align:left;" >Testimonials / Quotes</h3>
                      
 
-                     <!-- Testimonial Slider -->
+                        <!-- Testimonial Slider -->
 
 
                        <div class="col-sm-12">
-                        <section class="quotes">
-                       <div class="bubble">
-                         <blockquote>Working with WeRPlay's content designers, artists, and QA team has been one of the great joys of my career. They are so much more than an "outsource" company - they are artistic collaborators, eagle-eyed QA support, experts at refining process, game to do any task no matter how large or data-entryish, and after years of working together, they are great friends. Whenever I've needed extra support, my first question has been, "Can we work with WeRPlay?" I enthusiastically recommend them both as talented gamemakers and as a group of people who are a joy to work with.
-                      </blockquote>
-                         <div></div>
-                         <h2 class="title" style="font-size:1.5em;"> Amy Claussen, Pocketgems.</h2>
-                       </div>
+                        <section role="complementary" class="simple white-back quotes no-fouc">
 
-                         <div class="bubble">
-                         <blockquote>weRplay is one of the best QA partners we have. They are adaptable and always willing to learn new techniques and processes. Moreover, they never over commit - when they say they can do something they mean it. Great partner, dependable QA services and a delight to work with every day.
-                      </blockquote>
-                         <div></div>
-                         <h2 class="title" style="font-size:1.5em;"> Raymond T. Vizzone, Pocketgems.</h2>
-                       </div>
+                       <?php
+                          include ('connection.php'); 
 
-                       <div class="bubble">
-                         <blockquote>We have been working with WeRPlay for over three years now to QA test all of our games, and we could not be more pleased. WeRPlay's team is diligent, expedient, and extremely attentive to detail; precisely what any product developer would want from a QA testing partner. Besides identifying bugs and providing game design feedback, there were numerous occasions where WeRPlay went out of their way to accommodate our demanding schedule and tight deadlines. We highly recommend them to anyone looking for solid QA testing.
-                      </blockquote>
+                          $sql = "SELECT * FROM testimonials ORDER BY RAND() LIMIT 4";
+                          $result = mysqli_query($conn, $sql);
+
+                          if (mysqli_num_rows($result) > 0) {
+                      
+                          while($row = mysqli_fetch_assoc($result))
+                          {
+                              echo '<div class="bubble">
+                         <blockquote>'.$row["quote"].'</blockquote>
                          <div></div>
-                         <h2 class="title" style="font-size:1.5em;"> - Abdullah Alzabin, Founder & CEO of Lumba, Inc.</h2>
-                       </div>
+                         <h2 class="title" style="font-size:1.5em;"> '.$row["name"].', <span style="color:#2364B0;">'.$row["designation"].'</span>.</h2>
+                       </div>';
+
+                          }
+                          }     
+                         
+
+                       ?>
 
                        </section>
                       </div>
+
+                      <!-- Testimonial Slider -->
                  </div>
                </div>
             </div>
@@ -199,7 +203,7 @@
             infinite: true,
             autoplay: true,
             autoplaySpeed: 10000,
-            speed: 800,
+            speed: 100,
             slidesToShow: 1,
             // adaptiveHeight: true
           });

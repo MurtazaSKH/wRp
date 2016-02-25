@@ -43,7 +43,7 @@
           </div>
           <div class="check2">
             <ul class="check2">
-              <li class="first leaf" style="margin-left: 71px;"><a title="" class="hvr-bounce-to-top" id="homebutton"  href="index.php"><i class="service-icon fa fa-home" style="font-size:20px; "></i> </a></li>
+              <li class="first leaf" id="firstLeaf" style="margin-left: 67px;"><a title="" class="hvr-bounce-to-top" id="homebutton"  href="index.php"><i class="service-icon fa fa-home" style="font-size:20px; "></i> </a></li>
               <li class="leaf"><a title="" class="hvr-bounce-to-top" id="homebutton" href="view_games.php">Games</a></li>
               <li class="leaf video"><a title="" class="hvr-bounce-to-top" id="homebutton" href="services.php">Services</a></li>
               <li class="leaf"><a title="" class="hvr-bounce-to-top" id="homebutton" href="portfolio.php">Media</a></li>

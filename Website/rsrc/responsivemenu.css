@@ -115,6 +115,13 @@ body a:hover {
   display: inline;
   /*padding: 0 .35em;*/
 }
+
+@media only screen and (max-width: 1020px) {
+  #firstLeaf {
+    margin-left: 52px !important;
+  }
+}
+
 @media only screen and (min-width: 1024px) {
   #check1 .navbar .check2 li {
     /*padding: 0 .75em;
