@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0052)# -->
+
 <html>
    <!--<![endif]-->
    <head>
@@ -120,7 +120,7 @@
                            </div>
                         </a>
                      </li>
-                     <li style="z-index: 1; opacity:0.4;">
+                     <!-- <li style="z-index: 1; opacity:0.4;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/78.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
@@ -128,7 +128,7 @@
                               <p> A graduate from COMSATS Isb in Electrical (Telecom) Engineering by choice. I decided to join we.R.play because nothing could keep me away from my love of playing games and the prospect of having a job that I love doing was too overwhelming for me. I have an uncanny love for felines and in another life I'd be a lion caretaker at the Safari Park in Africa. Besides that, I love reading, music and want to travel the world and the space.</p>
                            </div>
                         </a>
-                     </li>
+                     </li> -->
                      <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/4.jpg" style="transform: scale(1); opacity: 0.7;">
@@ -138,7 +138,7 @@
                            </div>
                         </a>
                      </li>
-                     <li style="z-index: 1;">
+                     <!-- <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/5.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
@@ -146,7 +146,7 @@
                               <p>What memorable monument can last</p>
                            </div>
                         </a>
-                     </li>
+                     </li> -->
                      <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/6.jpg" style="transform: scale(1); opacity: 0.7;">
@@ -165,7 +165,7 @@
                            </div>
                         </a>
                      </li>
-                     <li style="z-index: 1;">
+                     <!-- <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/8.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
@@ -173,8 +173,8 @@
                               <p>Sith as that ever he maintained the same?</p>
                            </div>
                         </a>
-                     </li>
-                     <li style="z-index: 1;">
+                     </li> -->
+                     <!-- <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/9.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
@@ -182,8 +182,8 @@
                               <p>Oblivion in the darkest day to come</p>
                            </div>
                         </a>
-                     </li>
-                     <li style="z-index: 1;">
+                     </li> -->
+                     <!-- <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/10.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
@@ -191,7 +191,7 @@
                               <p>When sin shall tread on merit in the dust</p>
                            </div>
                         </a>
-                     </li>
+                     </li> -->
                      <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/11.jpg" style="transform: scale(1); opacity: 0.7;">
@@ -224,7 +224,7 @@
                            <img src="./rsrc/images/thumbs/14.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
                               <h3>Ismail Khan</h3>
-                              <p>"Previous education I get from army public school and college. I am eager to join Pakistan army as a commissioned officer from early childhood. It is my great wish to become army officer and serve my nation. Now I am studying in Sarhad University of Science and Technology.</p>
+                              <p>Previous education I get from army public school and college. I am eager to join Pakistan army as a commissioned officer from early childhood. It is my great wish to become army officer and serve my nation. Now I am studying in Sarhad University of Science and Technology.</p>
                            </div>
                         </a>
                      </li>
@@ -251,7 +251,7 @@
                            <img src="./rsrc/images/thumbs/17.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
                               <h3>Saadia Zia</h3>
-                              <p>"Born in Pakistan, Saadia is a BS Computer Science graduate from FAST-National University Islamabad. Has participated in Microsoft Imagine Cup 2011 and stood second in Pakistan Finals. Loves to do Abstract Painting. In an alternate life, she would be a wild life photographer.</p>
+                              <p>Born in Pakistan, Saadia is a BS Computer Science graduate from FAST-National University Islamabad. Has participated in Microsoft Imagine Cup 2011 and stood second in Pakistan Finals. Loves to do Abstract Painting. In an alternate life, she would be a wild life photographer.</p>
                            </div>
                         </a>
                      </li>
@@ -269,7 +269,7 @@
                            <img src="./rsrc/images/thumbs/19.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
                               <h3>Bilal Mirza | Lead Developer</h3>
-                              <p>"A Fast-Nu graduate in computer sciences. Currently working as a game developer in WeRplay. He loves to play Basketball, Volleyball, Table Tennis, Football, Badminton and of course Video games.</p>
+                              <p>A Fast-Nu graduate in computer sciences. Currently working as a game developer in WeRplay. He loves to play Basketball, Volleyball, Table Tennis, Football, Badminton and of course Video games.</p>
                            </div>
                         </a>
                      </li>
@@ -278,7 +278,7 @@
                            <img src="./rsrc/images/thumbs/20.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
                               <h3>Izhar Hussain</h3>
-                              <p>"I am a self taught 2d character animator. What brought me to animation industry was the inspiration by the cartoon movies those I used to watch in my childhood. As I grew up, I jump into the animation industry. Now I have 7 years experience in animation. But still I need a lot to go on...</p>
+                              <p>I am a self taught 2d character animator. What brought me to animation industry was the inspiration by the cartoon movies those I used to watch in my childhood. As I grew up, I jump into the animation industry. Now I have 7 years experience in animation. But still I need a lot to go on...</p>
                            </div>
                         </a>
                      </li>
@@ -296,7 +296,7 @@
                            <img src="./rsrc/images/thumbs/22.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
                               <h3>Maria Khan</h3>
-                              <p>"Maria is born n bred in Rawalpindi and comes from the beautiful land of Gilgit Baltistan. She is a BS Computer Science Graduate from FAST Islamabad. Her childhood dream has always been to be a Pilot . She has a great passion for indoor and outdoor sports. She is a total cat person and loves to spend time with them.</p>
+                              <p>Maria is born n bred in Rawalpindi and comes from the beautiful land of Gilgit Baltistan. She is a BS Computer Science Graduate from FAST Islamabad. Her childhood dream has always been to be a Pilot . She has a great passion for indoor and outdoor sports. She is a total cat person and loves to spend time with them.</p>
                            </div>
                         </a>
                      </li>
@@ -368,9 +368,7 @@
                            <img src="./rsrc/images/thumbs/30.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
                               <h3>Sana Shahzad | 2D Artist</h3>
-                              <p>A Pakistani at heart, have done my bachelors in computer
-science from FAST. Sketching,traveling and photography are my hobbies
-and WeRPlay is an opportunity for me to enhance my skills to find bugs
+                              <p>A Pakistani at heart, have done my bachelors in computer science from FAST. Sketching,traveling and photography are my hobbies and WeRPlay is an opportunity for me to enhance my skills to find bugs
 and kill them. Happy Killing :P</p>
                            </div>
                         </a>
@@ -399,7 +397,7 @@ and kill them. Happy Killing :P</p>
                            <img src="./rsrc/images/thumbs/34.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
                               <h3>Rabiya Mansour | QA Analyst</h3>
-                              <p>"Electrical Engineer</p>
+                              <p>Electrical Engineer</p>
                            </div>
                         </a>
                      </li>
@@ -417,7 +415,7 @@ and kill them. Happy Killing :P</p>
                            <img src="./rsrc/images/thumbs/36.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
                               <h3>Mohammad Nouman</h3>
-                              <p>"Been doodling and painting for ages. Still doing the same but professionally now, for last 5 to 7 years I think.</p>
+                              <p>Been doodling and painting for ages. Still doing the same but professionally now, for last 5 to 7 years I think.</p>
                            </div>
                         </a>
                      </li>
@@ -430,7 +428,7 @@ and kill them. Happy Killing :P</p>
                            </div>
                         </a>
                      </li>
-                     <li style="z-index: 1;">
+                     <!-- <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/38.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
@@ -438,7 +436,7 @@ and kill them. Happy Killing :P</p>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
-                     </li>
+                     </li> -->
                      <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/39.jpg" style="transform: scale(1); opacity: 0.7;">
@@ -457,7 +455,7 @@ and kill them. Happy Killing :P</p>
                            </div>
                         </a>
                      </li>
-                     <li style="z-index: 1;">
+                     <!-- <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/41.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
@@ -465,7 +463,7 @@ and kill them. Happy Killing :P</p>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
-                     </li>
+                     </li> -->
                      <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/42.jpg" style="transform: scale(1); opacity: 0.7;">
@@ -498,7 +496,7 @@ and kill them. Happy Killing :P</p>
                            <img src="./rsrc/images/thumbs/45.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
                               <h3>Nauman Naseer | IT Expert</h3>
-                              <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
+                              <p>Born in Rawalpindi, Computer scientist from Bahria University.</p>
                            </div>
                         </a>
                      </li>
@@ -506,8 +504,8 @@ and kill them. Happy Killing :P</p>
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/46.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
-                              <h3>Hamza Gill | Cry Baby</h3>
-                              <p>Super Power: Unstoppable Crying.</p>
+                              <h3>Hamza Gill | QA Analyst</h3>
+                              <p>I graduated from COMSATS Islamabad. I lived in Lahore for 12 years and can safely say “Lahore, Lahore Ha”.  I love music, cooking, sketching, hiking, traveling and playing games.When I'm not bug hunting I like to read about latest technology and partying on the weekends. “Thank You” is the best word that anyone could say. I say that one a lot as it expresses extreme gratitude and understanding.</p>
                            </div>
                         </a>
                      </li>
@@ -525,7 +523,7 @@ and kill them. Happy Killing :P</p>
                            <img src="./rsrc/images/thumbs/48.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
                               <h3>Yusra Kausar | QA Analyst</h3>
-                              <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
+                              <p>I was born in lahore and had my education from almost all parts of pakistan, as my father had his transfers after every two or three years. I did my bachalors in computer sciences from Fast-Nuces. I am enthusiastic and keen. I am very vivacious about my dreams. I am patriotic and I try my best to serve my country.</p>
                            </div>
                         </a>
                      </li>
@@ -534,7 +532,8 @@ and kill them. Happy Killing :P</p>
                            <img src="./rsrc/images/thumbs/49.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
                               <h3>Noor Fatima | Developer</h3>
-                              <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
+                              <p>A BS Computer Science graduate of Fast NUCES. Noor has started her professional career with weRplay. She has particular interest in learning new tools and technologies. She finds pleasure in cosmetics and makeup. Also she tends to have an affair with food. Loves life, caring and responsible. 
+`                             (P.S just done tell noor that she can’t do something )  :P</p>
                            </div>
                         </a>
                      </li>
@@ -543,7 +542,7 @@ and kill them. Happy Killing :P</p>
                            <img src="./rsrc/images/thumbs/50.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
                               <h3>Fatima Sabir | QA Analyst</h3>
-                              <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
+                              <p>I am an IT graduate of SEECS, NUST. At we R play, as a QA Analyst my focus is to have a grip on main QA skills and to excel, using them. Besides that, I love baking and making others eat whatever i make. Writing down my thoughts in a rythimic form, is something I enjoy most.</p>
                            </div>
                         </a>
                      </li>
@@ -566,7 +565,7 @@ and kill them. Happy Killing :P</p>
                            </div>
                         </a>
                      </li>
-                     <li style="z-index: 1;">
+                     <!-- <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/53.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
@@ -574,8 +573,8 @@ and kill them. Happy Killing :P</p>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
-                     </li>
-                     <li style="z-index: 1;">
+                     </li> -->
+                     <!-- <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/54.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
@@ -583,7 +582,7 @@ and kill them. Happy Killing :P</p>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
-                     </li>
+                     </li> -->
                      <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/55a.jpg" style="transform: scale(1); opacity: 0.7;">
@@ -593,7 +592,7 @@ and kill them. Happy Killing :P</p>
                            </div>
                         </a>
                      </li>
-                     <li style="z-index: 1;">
+                     <!-- <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/56.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
@@ -601,7 +600,7 @@ and kill them. Happy Killing :P</p>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
-                     </li>
+                     </li> -->
                      <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/57a.jpg" style="transform: scale(1); opacity: 0.7;">
@@ -611,7 +610,7 @@ and kill them. Happy Killing :P</p>
                            </div>
                         </a>
                      </li>
-                     <li style="z-index: 1;">
+                     <!-- <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/58.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
@@ -619,8 +618,8 @@ and kill them. Happy Killing :P</p>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
-                     </li>
-                     <li style="z-index: 1;">
+                     </li> -->
+                     <!-- <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/59a.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
@@ -628,8 +627,8 @@ and kill them. Happy Killing :P</p>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
-                     </li>
-                     <li style="z-index: 1;">
+                     </li> -->
+                     <!-- <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/60.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
@@ -637,9 +636,9 @@ and kill them. Happy Killing :P</p>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
-                     </li>
+                     </li> -->
 
-                     <li style="z-index: 1;">
+                     <!-- <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/61.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
@@ -647,8 +646,8 @@ and kill them. Happy Killing :P</p>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
-                     </li>
-                     <li style="z-index: 1;">
+                     </li> -->
+                     <!-- <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/62.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
@@ -656,8 +655,8 @@ and kill them. Happy Killing :P</p>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
-                     </li>
-                     <li style="z-index: 1;">
+                     </li> -->
+                     <!-- <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/63.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
@@ -665,8 +664,8 @@ and kill them. Happy Killing :P</p>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
-                     </li>
-                     <li style="z-index: 1;">
+                     </li> -->
+                     <!-- <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/64.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
@@ -674,8 +673,8 @@ and kill them. Happy Killing :P</p>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
-                     </li>
-                     <li style="z-index: 1;">
+                     </li> -->
+                     <!-- <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/65.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
@@ -683,8 +682,8 @@ and kill them. Happy Killing :P</p>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
-                     </li>
-                     <li style="z-index: 1;">
+                     </li> -->
+                     <!-- <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/66.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
@@ -692,8 +691,8 @@ and kill them. Happy Killing :P</p>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
-                     </li>
-                     <li style="z-index: 1;">
+                     </li> -->
+                     <!-- <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/67.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
@@ -701,8 +700,8 @@ and kill them. Happy Killing :P</p>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
-                     </li>
-                     <li style="z-index: 1;">
+                     </li> -->
+                     <!-- <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/68.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
@@ -710,7 +709,7 @@ and kill them. Happy Killing :P</p>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
-                     </li>
+                     </li> -->
                      <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/69.jpg" style="transform: scale(1); opacity: 0.7;">
@@ -720,17 +719,17 @@ and kill them. Happy Killing :P</p>
                            </div>
                         </a>
                      </li>
-                     <li style="z-index: 1;">
+                     <!-- <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/70.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
-                              <h3>Usman Khan | Head of marketing</h3>
+                              <h3>Usman Khan | Head of Ditching</h3>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
-                     </li>
+                     </li> -->
 
-                     <li style="z-index: 1;">
+                     <!-- <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/71.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
@@ -738,7 +737,7 @@ and kill them. Happy Killing :P</p>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
-                     </li>
+                     </li> -->
                      <!-- <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/72.jpg" style="transform: scale(1); opacity: 0.7;">
@@ -748,7 +747,7 @@ and kill them. Happy Killing :P</p>
                            </div>
                         </a>
                      </li> -->
-                     <li style="z-index: 1;">
+                     <!-- <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/73.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
@@ -756,8 +755,8 @@ and kill them. Happy Killing :P</p>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
-                     </li>
-                     <li style="z-index: 1;">
+                     </li> -->
+                     <!-- <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/74.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
@@ -765,8 +764,8 @@ and kill them. Happy Killing :P</p>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
-                     </li>
-                     <li style="z-index: 1;">
+                     </li> -->
+                     <!-- <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/75.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
@@ -774,8 +773,8 @@ and kill them. Happy Killing :P</p>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
-                     </li>
-                     <li style="z-index: 1;">
+                     </li> -->
+                     <!-- <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/76a.jpg" style="transform: scale(1); opacity: 0.7;">
                            <div class="pe-description" style="height: auto; top: -15px; left: 115px; display: none;">
@@ -783,7 +782,7 @@ and kill them. Happy Killing :P</p>
                               <p>That lives encompassed in a mortal frame, That lives encompassed in a mortal frame, That lives encompassed in a mortal frame.</p>
                            </div>
                         </a>
-                     </li>
+                     </li> -->
                      <li style="z-index: 1;">
                         <a onclick="return false" href="#">
                            <img src="./rsrc/images/thumbs/77.jpg" style="transform: scale(1); opacity: 0.7;">

@@ -1,0 +1,1 @@
+angular.module('quiz', ['ngRoute', 'quizC', 'load', 'list', 'results', 'quizMetrics', 'dataService']);

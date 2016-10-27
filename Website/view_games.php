@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- saved from url=(0062)# -->
 <html>
 <!--<![endif]-->
 
@@ -7,7 +6,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <title>we.R.play | Games</title>
-    <meta name="description" content="Multipurpose and creative template">
+    <meta name="description" content="Play & let Play">
     <!--[if IE]>
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <![endif]-->
@@ -27,6 +26,12 @@
       <link rel="apple-touch-icon" sizes="72x72" href="./images/favicon.ico">
     <link rel="stylesheet" href="./rsrc/skin.css" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- Facebook tags -->
+      <meta property="og:title" content="Come visit us at our home!"/>
+      <meta property="og:url" content="http://www.werplay.com/view_games.php"/>
+      <meta property="og:image" content="http://www.werplay.com/rsrc/images/sheeda.png"/>
+      <meta property="og:site_name" content="we.R.play | Official Games"/>
+      <meta property="og:description" content="Play & let Play."/>
 </head>
 
 <body>
@@ -102,7 +107,7 @@
 
                                 <div class="carousel-inner" role="listbox">
                                     <div class="item active">
-                                        <a href="##" title="Lorem ipsum dolor sit amet, consectetuer adipiscing elit"><img src="./rsrc/images/games/fly.jpg" alt="entry image"></a>
+                                        <a href="##" title="Lorem ipsum dolor sit amet, consectetuer adipiscing elit"><img src="./rsrc/images/games/fly3.png" alt="entry image"></a>
                                     </div>
                                 </div>
 
@@ -213,13 +218,13 @@
             <div class="container">
 
                 <div class="row">
-                        <div class="col-sm-6" style="max-height: 200px;">
+                        <div class="col-sm-6" id="firstgame" style="max-height: 200px;">
                               <div class="portfolio-item simple-overlay wow fadeInUp " style="visibility: visible; animation-name: fadeInUp; position: relative;">
                             <h3 class="title" style="color:#DFDFDF;">All Games</h3>
                             <figure >
                                 <div class="carousel-inner" role="listbox">
                                     <div class="item active">
-                                        <a href="http://explottens.com/" title="Lorem ipsum dolor sit amet, consectetuer adipiscing elit"><img src="./rsrc/images/games/hex2.png" alt="entry image"></a>
+                                        <a href="http://explottens.com/" title="HEX:99"><img src="./rsrc/images/games/hex2.png" alt="entry image"></a>
                                     </div>
                                 </div>
                                 <div class="item-meta">
@@ -238,7 +243,7 @@
                             <figure >
                                 <div class="carousel-inner" role="listbox">
                                     <div class="item active">
-                                        <a href="http://runsheedarun.werplay.com/" title="Lorem ipsum dolor sit amet, consectetuer adipiscing elit"><img src="./rsrc/images/games/dreamchaser.png" alt="entry image"></a>
+                                        <a href="http://runsheedarun.werplay.com/" title="Dream Chaser"><img src="./rsrc/images/games/dreamchaser.png" alt="entry image"></a>
                                     </div>
                                 </div>
                                 <div class="item-meta">
@@ -257,7 +262,7 @@
                             <figure >
                                 <div class="carousel-inner" role="listbox">
                                     <div class="item active">
-                                        <a href="http://runsheedarun.werplay.com/" title="Lorem ipsum dolor sit amet, consectetuer adipiscing elit"><img src="./rsrc/images/games/scuba.png" alt="entry image"></a>
+                                        <a href="http://press.werplay.com/sheet.php?p=scuba_steve" title="Scuba Steve"><img src="./rsrc/images/games/scuba.png" alt="entry image"></a>
                                     </div>
                                 </div>
                                 <div class="item-meta">
@@ -274,7 +279,7 @@
                             <figure >
                                 <div class="carousel-inner" role="listbox">
                                     <div class="item active">
-                                        <a href="http://runsheedarun.werplay.com/" title="Lorem ipsum dolor sit amet, consectetuer adipiscing elit"><img src="./rsrc/images/games/roboquest.png" alt="entry image"></a>
+                                        <a href="http://runsheedarun.werplay.com/" title="Robo Quest"><img src="./rsrc/images/games/roboquest.png" alt="entry image"></a>
                                     </div>
                                 </div>
                                 <div class="item-meta">
@@ -291,7 +296,7 @@
                             <figure >
                                 <div class="carousel-inner" role="listbox">
                                     <div class="item active">
-                                        <a href="http://runsheedarun.werplay.com/" title="Lorem ipsum dolor sit amet, consectetuer adipiscing elit"><img src="./rsrc/images/games/beatleap.png" alt="entry image"></a>
+                                        <a href="http://runsheedarun.werplay.com/" title="Beat Leap"><img src="./rsrc/images/games/beatleap.png" alt="entry image"></a>
                                     </div>
                                 </div>
                                 <div class="item-meta">
@@ -308,7 +313,7 @@
                             <figure >
                                 <div class="carousel-inner" role="listbox">
                                     <div class="item active">
-                                        <a href="http://runsheedarun.werplay.com/" title="Lorem ipsum dolor sit amet, consectetuer adipiscing elit"><img src="./rsrc/images/games/spaceleap.png" alt="entry image"></a>
+                                        <a href="http://runsheedarun.werplay.com/" title="Space Leap"><img src="./rsrc/images/games/spaceleap.png" alt="entry image"></a>
                                     </div>
                                 </div>
                                 <div class="item-meta">
@@ -325,7 +330,7 @@
                             <figure >
                                 <div class="carousel-inner" role="listbox">
                                     <div class="item active">
-                                        <a href="http://runsheedarun.werplay.com/" title="Lorem ipsum dolor sit amet, consectetuer adipiscing elit"><img src="./rsrc/images/games/spinit.png" alt="entry image"></a>
+                                        <a href="http://runsheedarun.werplay.com/" title="Spin It"><img src="./rsrc/images/games/spinit.png" alt="entry image"></a>
                                     </div>
                                 </div>
                                 <div class="item-meta">

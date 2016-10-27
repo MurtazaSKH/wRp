@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0078)# -->
+
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,6 +36,13 @@
       <link rel="apple-touch-icon" sizes="72x72" href="./images/favicon.ico">
   <link rel="stylesheet" href="./rsrc/skin.css" type="text/css">
   <link rel="stylesheet" href="./rsrc/css/lightcase.css" type="text/css">
+  <style>
+    .videohover:hover
+    {
+      border-right: 8px solid rgba(255,255,255,1) !important;
+      border-left: 8px solid rgba(255,255,255,1) !important;
+    }
+  </style>
   
 </head>
 
@@ -50,8 +57,9 @@
                 <div class="col-sm-6"  style="margin: 9% 0%;">
                   <!-- <iframe style="border-right: 8px solid rgba(255,255,255,.7); border-left: 8px solid rgba(255,255,255,.7);    border-radius: 20px; padding:0% 1%;" id="framevid" src="https://player.vimeo.com/video/118679587?autoplay=1" width="550" height="309" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
 
-                    <a  class="button line-blue " data-rel="lightcase:myCollection" href="https://player.vimeo.com/video/118679587"><video style="border-right: 8px solid rgba(255,255,255,.7); border-left: 8px solid rgba(255,255,255,.7);    border-radius: 20px; padding:0% 5%; width:100% !important; height: auto !important; max-width: 600px;" autoplay="autoplay" loop="loop"  name="Video Name" src="./rsrc/website_test.mov"></video>
-                    <img  style="max-width:100%;" id="playimage" class="big corner1" src="./rsrc/images/play.png" onmouseover="this.src='./rsrc/images/playhover.png'" onmouseout="this.src='./rsrc/images/play.png'" />
+                    <a  class="button line-blue " data-rel="lightcase:myCollection" href="https://player.vimeo.com/video/158674527">
+                      <video class="videohover" style="border-right: 8px solid rgba(255,255,255,.7); border-left: 8px solid rgba(255,255,255,.7);    border-radius: 20px; padding:0% 5%; width:100% !important; height: auto !important; max-width: 600px;" autoplay="autoplay" loop="loop"  name="Video Name" src="./rsrc/website_test.mov"></video>
+                    <img  style="max-width:100%; " id="playimage" class="big corner1" src="./rsrc/images/play.png" onmouseover="this.src='./rsrc/images/playhover.png'" onmouseout="this.src='./rsrc/images/play.png'" />
 
                   </a>
                     <!-- <div class="video-overlay">
@@ -76,7 +84,7 @@
                 </div>
                 <div class="col-sm-6" style="margin: 17% 0%;">
                   <h3 style="font-size: 50px; color:#fff; font-family: 'font2', Verdana, sans-serif; font-weight: 400;">Art</h3>
-                  <p style="color:#A6ABAC;"> We've worked with some of the best in the business and our art work is seen by hundreds of millions of people everyday.<br>We're passionate about what we do and take incredible ownership to ensure that our partners succeed. Your success is our success.</p>
+                  <p style="color:#A6ABAC;"> Our job is to bring what you’re thinking to life! With our renowned artists along with artwork that has been seen by millions, we ensure that we exceed your expectations and deliver something worthwhile. Your success is our success.</p>
                   <a href="portfolio.php" style="float:left; width:49%; background:#78AE4E; color:white; height:48px;" class="btn btn-custom btn-sm min-width">View Media</a>
                 </div>
                 </div>
@@ -89,7 +97,7 @@
                 <div class="row">
                 <div class="col-sm-6" style="margin: 9% 0%;">
                   <h3 style="font-size: 50px; color:#fff; font-family: 'font2', Verdana, sans-serif; font-weight: 400;">Q.A.</h3>
-                  <p style="color:#A6ABAC;"> Bugs got your application? we.R.play has a dedicated team of testers that make sure your apps are bug free and you are stress free.</p>
+                  <p style="color:#A6ABAC;"> Are Bugs chewing up your application? Don’t pull out your hair just yet, because we.R.play has a dedicated team of testers that make sure your apps are bug free and that you are stress free.</p>
                   <a href="contactus.php" style="float:left; width:49%; background:#A79814; color:white; height:48px;" class="btn btn-custom btn-sm min-width">Contact us</a>
                 </div>
                 <div class="col-sm-6" style="margin: 17% 0%;">
@@ -109,7 +117,7 @@
                 </div>
                 <div class="col-sm-6" style="margin: 17% 0%;">
                   <h3 style="font-size: 50px; color:#fff; font-family: 'font2', Verdana, sans-serif; font-weight: 400;">Content Designing</h3>
-                  <p style="color:#A6ABAC;"> When it comes to content, we use pure creativity and develop quests for games so that our users have the most fun filled experience. We make, you play!</p>
+                  <p style="color:#A6ABAC;"> When it comes to content, our goal is to use pure creativity and develop quests for games, so that our users can indulge in a unique yet fun filled experience. We make, you play!</p>
                   <a href="contactus.php" style="float:left; width:49%; background:#2763AD; color:white; height:48px;" class="btn btn-custom btn-sm min-width">Contact us</a>
                 </div>
                 </div>
@@ -122,7 +130,7 @@
                 <div class="row">
                 <div class="col-sm-6" style="margin: 9% 0%;">
                   <h3 style="font-size: 50px; color:#fff; font-family: 'font2', Verdana, sans-serif; font-weight: 400;">Development</h3>
-                  <p style="color:#A6ABAC;"> We take pride and passion in our team and believe we have the finest talents available with incredible array of skills.</p>
+                  <p style="color:#A6ABAC;"> Teamwork, talent, and a passion for what we do is what sets us apart. We’ve got a diverse team dedicated to developing nothing but the best. </p>
                   <a href="view_games.php" style=" width:49%; background:#AF1D29; color:white; height:48px;" class="btn btn-custom btn-sm min-width">View Our Games</a>
                 </div>
                 <div class="col-sm-6" style="margin: 17% 0%;">
@@ -149,8 +157,34 @@
             $('a[data-rel^=lightcase]').lightcase();
          });
       </script>
-<!-- End Footer -->
+      <script>
+    $('.videohover').on('mouseenter', function(e) {
+    $('#playimage').trigger('mouseover');
 
+    })
+
+    $('.videohover').on('mouseleave', function(e) {
+    $('#playimage').trigger('onmouseout');
+
+    })
+
+  </script>
+<!-- End Footer -->
+  
+  <!-- skew div -->
+
+  <!--  
+    -webkit-transform: skewY(2.5deg);
+    -moz-transform: skewY(2.5deg);
+    -ms-transform: skewY(2.5deg);
+    -o-transform: skewY(2.5deg);
+    transform: skewY(2.5deg);">
+               <div class="container" style="
+    -webkit-transform: skewY(-2.5deg);
+    -moz-transform: skewY(-2.5deg);
+    -ms-transform: skewY(-2.5deg);
+    -o-transform: skewY(-2.5deg);
+    transform: skewY(-2.5deg);"> -->
 
 
 

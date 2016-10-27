@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- saved from url=(0040)#themes/legendstatic/ -->
 <html id="ls-global">
    <!--<![endif]-->
    <head>
@@ -33,9 +32,10 @@
 
       <!-- Facebook tags -->
       <meta property="og:title" content="Come visit us at our home!"/>
+      <meta property="og:url" content="http://www.werplay.com/"/>
       <meta property="og:image" content="http://www.werplay.com/rsrc/images/sheeda.png"/>
       <meta property="og:site_name" content="we.R.play | Official"/>
-      <meta property="og:description" content="we.R.play is trusted by some of the best in the industry to create amazing art, design compelling content, test code and manage live-ops for titles with many millions of daily active users."/>
+      <meta property="og:description" content="Play & let Play."/>
       
       <style type="text/css">
       .no-fouc {
@@ -88,7 +88,7 @@
 
             <div class="tagline light bg-gradient2" style="background: linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30) ),url('./rsrc/images/sheeda.jpg'); max-width:100%; height:700px; background-position: center center;  background-repeat: no-repeat;    background-size: cover; background-attachment:fixed;">
                <div class="container">
-                  <h3 style="margin: 25% 6%; font-size: 75px; color:#fff; font-family: 'font2', Verdana, sans-serif; font-weight: 400; overflow:hidden;">we.R.> a Digital Entertainment Studio.</h3>
+                  <h3 style="margin: 25% 6%; font-size: 75px; color:#fff; font-family: 'font2', Verdana, sans-serif; font-weight: 400; overflow:hidden;">we.R.> a Digital <span id="hometextspan">Entertainment</span> Studio.</h3>
                </div>
             </div>
             
@@ -152,10 +152,15 @@
                        <div class="col-sm-12">
                         <section role="complementary" class="simple white-back quotes no-fouc">
 
+                        <div class="bubble">
+                         <blockquote>Working with WeRPlay's content designers, artists, and QA team has been one of the great joys of my career. They are so much more than an "outsource" company - they are artistic collaborators, eagle-eyed QA support, experts at refining process, game to do any task no matter how large or data-entryish, and after years of working together, they are great friends. Whenever I've needed extra support, my first question has been, "Can we work with WeRPlay?" I enthusiastically recommend them both as talented gamemakers and as a group of people who are a joy to work with.</blockquote>
+                         <div></div>
+                         <h2 class="title" style="font-size:1.5em;"> Amy Claussen, <span style="color:#2364B0;">Pocketgems</span>.</h2>
+                       </div>
                        <?php
                           include ('connection.php'); 
 
-                          $sql = "SELECT * FROM testimonials ORDER BY RAND() LIMIT 4";
+                          $sql = "SELECT * FROM testimonials where name !='Amy Claussen' ORDER BY RAND() LIMIT 5";
                           $result = mysqli_query($conn, $sql);
 
                           if (mysqli_num_rows($result) > 0) {

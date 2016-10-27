@@ -5024,6 +5024,11 @@ a.label:hover {
     -o-transition: border .2s ease-in-out;
     transition: border .2s ease-in-out
 }
+
+.thumbnail:hover {
+    border: 1px solid #fff;
+    box-shadow: 0 0 0 2px #fff;
+}
 .thumbnail a>img,
 .thumbnail>img {
     margin-right: auto;

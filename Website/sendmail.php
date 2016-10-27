@@ -18,7 +18,7 @@
         }
 		else
 		{
-			$to = "connect@werplay.com"; // this is your Email address
+			$to = "murtaza@werplay.com"; // this is your Email address
 			$from = $_POST['email']; // this is the sender's Email address
 			$name = $_POST['name'];
 			//$phone = $_POST['phone'];

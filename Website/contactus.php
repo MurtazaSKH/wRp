@@ -67,8 +67,8 @@
             <div class="mb100 mb80-sm mb60-xs"></div>
             <div class="container">
                <div class="row">
-                  
-                  <div class="col-md-12 ">
+                  <div class="col-md-3"><div class="contact-text"><h4>Address</h4><p>Plot# 395/396 Service Rd N,، I-9/3، Islamabad, Pakistan.</p><h4>Email</h4><p><a href="mailto:#">connect@werplay.com</a></p><h4>Phone</h4><p>(051) 4859017</p></div></div>
+                  <div class="col-md-9 ">
                      <form method="post" action="sendmail.php" id="contact-form" novalidate="novalidate">
                         <div class="row">
                            <div class="col-md-12"><input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required="" aria-required="true"></div>

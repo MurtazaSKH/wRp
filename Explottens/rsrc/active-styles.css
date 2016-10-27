@@ -1,0 +1,131 @@
+/*** Microthemer Styles ***/
+
+/* =Free Trial Example Section
+-------------------------------------------------------------- */
+/* Nav Logo */
+header#main-header img#logo {
+	height: 75px !important;
+	min-height: 75px !important;
+	max-height: 75px !important;
+	padding-top: 0px !important;
+	padding-right: 0px !important;
+	padding-bottom: 0px !important;
+	padding-left: 0px !important;
+	margin-top: -3px !important;
+	margin-right: 0px !important;
+	margin-bottom: 0px !important;
+	margin-left: 0px !important;
+}
+/* Main Header */
+article#post-64 h1 {
+	font-family: 'Oswald' !important;
+	color: #FFFFFF !important;
+	font-size: 40px !important;
+}
+/* Games Headers */
+article#post-85 h1 {
+	font-size: 37px !important;
+}
+/* About Headline2 */
+article#post-105 h2 {
+	font-size: 30px !important;
+	letter-spacing: 1px !important;
+}
+/* About H6 */
+article#post-105 h6 {
+	font-size: 18px !important;
+	padding-top: 19px !important;
+	margin-bottom: -17px !important;
+}
+/* Contact Map */
+article#post-116 img.et-waypoint {
+	margin-bottom: 5px !important;
+}
+/* Contact Dash */
+article#post-116 h3 {
+	font-size: 40px !important;
+	letter-spacing: -1px !important;
+}
+/* Blog Comment Area */
+form#commentform textarea {
+}
+
+/* =Games Section
+-------------------------------------------------------------- */
+/* Gameplay Gallery */
+.et_pb_gallery_image {
+	border-top-color: #00FFFF !important;
+	border-right-color: #00FFFF !important;
+	border-bottom-color: #00FFFF !important;
+	border-left-color: #00FFFF !important;
+	border-top-width: 4px !important;
+	border-right-width: 4px !important;
+	border-bottom-width: 4px !important;
+	border-left-width: 4px !important;
+	border-style: solid !important;
+}
+/* Home H2 */
+article#post-64 h2 {
+	font-size: 28px !important;
+	letter-spacing: 1px !important;
+}
+/* Games H2 */
+article#post-85 h2 {
+	font-size: 29px !important;
+	letter-spacing: 1px !important;
+}
+/* Games H6 */
+article#post-85 h6 {
+	font-size: 28px !important;
+	letter-spacing: 1px !important;
+}
+/* H3 */
+div#meet-meat h3 {
+	font-size: 37px !important;
+	margin-bottom: 20px !important;
+}
+
+/* =About
+-------------------------------------------------------------- */
+/* About Headline1 */
+article#post-105 h1 {
+	font-size: 39.5px !important;
+	letter-spacing: .5px !important;
+	margin-top: -1px !important;
+}
+/* About H5 */
+article#post-105 h5 {
+	font-size: 42px !important;
+	letter-spacing: -1px !important;
+	margin-top: -10px !important;
+}
+
+/* =Contact
+-------------------------------------------------------------- */
+/* Contact H1 */
+article#post-116 h1 {
+	font-size: 40px !important;
+	letter-spacing: 1px !important;
+}
+/* Contact H4 */
+article#post-116 h4 {
+	letter-spacing: .5px !important;
+	padding-top: 6px !important;
+}
+
+/* =Home
+-------------------------------------------------------------- */
+/* Home Dashes */
+article#post-64 h3 {
+	font-size: 40px !important;
+	letter-spacing: -.9px !important;
+}
+
+/* =Blog
+-------------------------------------------------------------- */
+
+/* =Footer
+-------------------------------------------------------------- */
+/* Footer Logo */
+div#text-3 img {
+}
